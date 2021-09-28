@@ -1,0 +1,23 @@
+Product Name,Product Type,Horizontal Accuracy,Vertical Accuracy,Resolution,Coverage,Status,Offline Formats,Online Formats,Source/Producer,Data Provider,References
+GRGM1200A,Gravity,NA,NA,$<$ 5kmpp,Global,Current,"['ASCII', 'GeoTiff', 'PDS IMG']",['?'],GSFC,PDS,"['Lemoine:2014grs', 'Goossens:2016lpsc']"
+Gridded Unified Lunar Control Network (ULCN) DEM,Elevation,~3km,?,16ppd / 118mpp,85S to 85N,Superseded,"['ArcGrid', 'BIL', 'Cube']",['???'],USGS,USGS,['Archinal:2007']
+Gridded Lunar Orbiter Laser Altimeter (LOLA),Elevation,20m,1m,256ppd / 118mpp,Global,Current,"['PDS3', 'Cube', 'GeoTiff']",['WMS'],GSFC,"PDS, PDS Annex",['Neumann:2009']
+SLDEM2015,Elevation,60-100m,3-4m,512ppd / ~60mpp,60S to 60N,Current,"['GeoTiff', 'IMG', 'JPEG2000']",['WMS'],GSFC,"PDS, USGS",['Barker:2016icarus']
+LOLA Polar Gridded Data Record,Elevation,1m,~10cm,Varies,Varies,Current,"['IMG', 'JPEG2000']",['?'],LOLA Team,"PDS, \ac{MIT",['Smith:2017icarus']
+Kaguya (SELENE) LALT DEM,Elevation,77m,?,16ppd / 2kmpp,Near Global,Current,['IMG'],['?'],JAXA,DARTS,['Araki:2009sci']
+Kaguya (SELENE) North Pole LALT DEM,Elevation,77m,?,16ppd / 2kmpp,79N - ~90N,Current,['IMG'],['?'],JAXA,DARTS,['Araki:2009sci']
+Kaguya (SELENE) South Pole LALT DEM,Elevation,77m,?,16ppd / 2kmpp,79S - ~90S,Current,['IMG'],['?'],JAXA,DARTS,['Araki:2009sci']
+CLTM-s01,Elevation,445m,31m,0.25ppd / 7.5kmpp,Global,Superseded,['Unreleased'],['?'],CNSA,GRAS,['Ping:2009']
+CE-1 LAM Derived \ac{DEM,Elevation,50m,?,0.0625ppd / 20mpp,Global,Current,['Unreleased'],['?'],CNSA,GRAS,['Huang:2018aa']
+GLD100 \ac{WAC \ac{DEM,Elevation,1km,20m global; 10m flat maria,100mpp,79N - 79SS,Current,"['GeoTiff', 'ISIS Cub']",['WMS'],ASU,"ASU, USGS",['Scholten:2012']
+LMMP Generated LRO-NAC DEMs,Elevation,20m,1 - 2m (reported per product),1.5mpp,Regional,Current,['GeoTiff'],['?'],"ASU, USGS,UA, DLR, AMES, OSU",Moon Trek,['Tran:2010isprs']
+LROC NAC DEMs ($>$450 created),Elevation,Varied,Varied (Tied to LOLA),1.5mpp,Regional,Current,['?'],['WMS'],ASU,ASU,['HENRIKSEN:2017icarus']
+"Apollo 15,16, 17 Metric DEM Mosaic",Elevation,91m,41m,1024ppd,38S - 38N,Current,['GeoTiff'],['?'],NASA Ames,PDS,['Nefian:2009']
+Kaguya TC Stereophotogrammetric DEM,Elevation,50m,5m,4095ppd / ~7.5mpp,~95%,Current,['IMG'],['?'],JAXA,DARTS,['Haruyama:2012lpsc']
+Chandrayaan-1 TMC DEM Mosaic,Elevation,?,?,"25m, 10m, 5m(?)",Global (?),Current,['?'],['?'],ISRO,ISDA,"['Sivakumar:2012', 'Suresh:nd']"
+LROC WAC Mosaic,Uncontrolled Orthomosaic,45m,?,100mpp,Global,Current,"['IMG', 'Cube', 'GeoTIFF']",['WMS'],ASU,"ASU, PDS, USGS",['Robinson:2012isprs']
+LROC NAC DEM  Derived Orthomosaics,Absolutely Controlled Orthomosaics,Varies with underlying DEM,Varies with underlying DEM,~1mpp,Regional,Current,['IMG'],['?'],ASU,"ASU, PDS, MoonTrek",['HENRIKSEN:2017icarus']
+Uncontrolled LROC NAC Polar Orthomosaics,Uncontrolled Controlled Orthomosaics,Varies with underlying DEM,Varies with underlying DEM,~1mpp,88.5 - 90N/S,Current,['Cube'],['WMS'],ASU,ASU,['Wagner:2015lpsc']
+Clementine Mosaic,Uncontrolled Orthomosaics,?,?,250mpp,Global,Current,['IMG'],['WMS'],ASU,PDS,['Speyerer:2018lpsc']
+Kaguya TC Global Orthomosaic,Uncontrolled Orthomosaic,50m,5m,474mpp,Global,Current,['GeoTiff'],['?'],JAXA,USGS,['Haruyama:2012lpsc']
+Kaguya TC Orthoimages,Uncontrolled Orthoimages,50m,5m,4095ppd / ~7.5mpp,~95%,Current,['IMG'],['?'],JAXA,DARTS,['Haruyama:2012lpsc']

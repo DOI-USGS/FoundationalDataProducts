@@ -1,0 +1,33 @@
+Body ID,Body,Product Name,Product Type,Horizontal Accuracy,Vertical Accuracy,Resolution,Coverage,Status,Offline Formats,Online Formats,Source/Producer,Data Provider,References
+2000001,Ceres,Gravity Model,Gravity,?,?,300kmpp,Global,Current,"['IMG', 'Tab']",?,"Konopliv, et al.",PDS,"['Konopliv:2012', 'Konopliv:2018icarus', 'Park:2018pds']"
+2000001,Ceres,Dawn FC global DEM (HAMO),Elevation,?,10m,60ppd / 136mpp,Global,Current,"['GeoTiff', 'IMG']",?,DLR,PDS,"['Preusker:2016lpsc', 'Roatsch:2018pds']"
+2000001,Ceres,Dawn FC Regional DEM (LAMO),Elevation,?,~1.5m,256ppd / 32mpp,Regional,Superseded,['IMG'],?,DLR,PDS,['Preusker:2016lpsc']
+2000001,Ceres,Regional DEMs and Mosaics,Elevation,?,~1.5m,256ppd / 32mpp,Regional,Current,['IMG'],?,DLR,PDS,['Jaumann:2017lpsc']
+2000001,Ceres,Dawn Stereo-photoclinometric (SPC) - LAMO,Elevation,?,"mean 10m, 89% < 20m",100mpp,Global,Current,"['DSK', 'ICQ', 'IMG']",WMS,"Park, et al.","NAIF, PDS","['Park:2019icarus', 'Park:2018pds_a']"
+2000001,Ceres,Dawn FC global mosaic (HAMO),Absolutely Controlled Orthomosaic,~16m,~16m,140mpp,Global,Current,"['GeoTiff', 'IMG']",WMS,DLR,"PDS, USGS",['Roatsch:2016pss']
+2000001,Ceres,Dawn FC global mosaic (LAMO),Absolutely Controlled Orthomosaic,~16m,~16m,140mpp,Global,Current,"['GeoTiff', 'IMG']",?,DLR,"PDS, USGS",['Roatsch:2016pss']
+2000004,Vesta,Gravity Model,Gravity,?,?,90kmpp,Global,Current,"['IMG', 'Tab']",?,"Konopliv, et al.",PDS,"['Konopliv:2014icarus', 'Konopliv:2017pds']"
+2000004,Vesta,Dawn Stereo-photogrammetric (SPG) - HAMO,Elevation,~8m,~8m,64ppd / 70mpp,~95%,Current,"['GeoTiff', 'IMG']",?,DLR,PDS,"['Preusker:2012epsc', 'Jaumann:2012sci']"
+2000004,Vesta,Dawn Stereo-photoclinometric (SPC) - LAMO,Elevation,?,?,64ppd / 70mpp,Near Global,Un-released,[''],?,"Gaskell, et al.",Un-released,['Gaskell2012dps']
+2000004,Vesta,Dawn FC global Mosaic (LAMO),Absolutely Controlled Orthomosaic,?,?,20mpp,~84%,Current,"['GeoTiff', 'IMG']",?,DLR,PDS,['Roatsch:2013egu']
+2000004,Vesta,Dawn FC global Mosaic (HAMO),Absolutely Controlled Orthomosaic,~8m,~8m,60mpp,Global,Superseded,"['GeoTiff', 'IMG']",WMS,DLR,PDS,['LeCorre:2017pdw']
+2000021,Lutetia,Shape Model,Elevation,?,?,"1,500,000 facets",Global,Current,['VRML'],?,"Jorda, et al.",PDS,['Sierks:2011sci']
+2000433,Eros,Stereo-photoclinometric (SPC) Shape Model,Elevation,?,?,$(512 + 1) ^ 2$ Vertices / Face,Global,Current,"['Tab', 'ICQ']",?,"Gaskell, et al.",PDS,['Gaskell:2008pds']
+2002867,Steins,OSIRIS Derived SPC Derived Shape Model,Elevation,20m,?,> 70m / facet,Global,Current,['VRML'],?,"Jorda, et al.",PDS,['Jorda:2012icarus']
+2025143,Itokawa,Stereo-photoclinometric (SPC) Shape Model,Elevation,?,?,$(256 + 1) ^ 2$ Vertices / Face,Global,Current,"['Tab', 'ICQ']",?,"Gaskell, et al.",PDS,['Gaskell:2006lpsc']
+2101955,Bennu,Shape Model,Elevation,10m,52m,25m between vertices,Global,Current,"['Tab', 'Obj', 'Wavefront']",?,"Nolan, et al.",PDS,['Nolan:2013pds']
+2101955,Bennu,Shape Model (SPC),Elevation,<0.5m,<0.5m,0.75~m,Global,Current,['?'],?,"Barnouin, et al.",Un-released,"['Barnouin:2019pss', 'Barnouin:2020pss']"
+2101955,Bennu,Shape Model (Laser Altimieter),Elevation,<0.5m,<0.5m,0.75~m,Global,Current,['?'],?,"Barnouin, et al.",Un-released,"['Barnouin:2019pss', 'Barnouin:2020pss']"
+2101955,Bennu,Global Basemap,Absolutely Controlled Orthomosaic,30~cm,30~cm,0.5cm,Global,Current,['GeoTiff'],?,"Bennet, et al.",USGS,['Bennett:2020icarus']
+2162173,Ryugu,Structure From Motion (SfM) Shape Model,Elevation,?,?,?,Global,Un-released,['?'],?,University of Aizu,Un-released,['JAXA:2018web']
+2162173,Ryugu,Stereo-photoclinometric (SPC)) Shape Model,Elevation,?,?,?,Global,Un-released,['?'],?,"Kobe University, University of Aizu",Un-released,['JAXA:2018web']
+486958,Arrokoth,??? LORRI Global Shape Model,Elevation,?,?,?,Global,Current,['Obj'],?,"Spencer, et al.",Science,['Spencer:2020sci']
+486958,Arrokoth,Stereo-photogrammetric Shape Model,Elevation,?,?,?,$<50%$,Current,['Obj'],?,"Spencer, et al.",Science,['Spencer:2020sci']
+1000005,Borrelly,Stereo-photogrammetric Shape Model,Elevation,?,100m,500m,~50%,Current,['TAB'],?,"Oberst, et al.",PDS,['Oberst:2004icarus']
+1000005,Borrelly,Stereo-photogrammetric Shape Model,Elevation,?,100m,500m,~50%,Current,['TAB'],?,USGS,PDS,['Kirk:2004pds']
+1000012,Comet 67P/C-G,NavCam Derived SPC Shape Model,Elevation,?,?,">4,000,000 facets",Global,Current,"['DSK', 'ROS']",?,"ESA, Rosetta Mission",PDS,['esaspc:2017']
+1000012,Comet 67P/C-G,OSIRIS SPC Derived Shape Model,Elevation,<2m,<2m,">5,000,000 plates, 1-2m maplets",Global,Current,"['DSK', 'VRML']",?,"Gaskell, et al.",PDS,['Preusker:2015aaa']
+1000012,Comet 67P/C-G,OSIRIS Derived SPG Model,Elevation,<2m,<2m,"2m, >16,000,000 facets",Global,Current,"['DSK', 'VRML']",?,DLR,PDS,['Preusker:2015aaa']
+1000012,Comet 67P/C-G,Multiresolution Photoclinometry by Deformation Shape Model,Elevation,?,?,">1,000,000 plates",Global,Current,"['DSK', 'VRML']",?,"Jorda, et al.",PDS,"['Jorda:2016icarus', 'Capanna:2015pds']"
+1000041,Comet 103P / Hartley 2,EPOXI Derived Shape Model,Elevation,10m (visible) 30m (silhouettes),18m,"> 32,000 plates",Global,Current,"['TAB', 'VRML']",?,"Thomas, et al.",PDS,['Thomas:2013icarus']
+1000093,Comet Tempel 1,Deep Impact Derived Shape Model,Elevation,20m,20m,"> 32,000 plates",Global,Current,['TAB'],?,"Thomas, et al.",PDS,['Thomas:2007icarus']

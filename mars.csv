@@ -1,0 +1,31 @@
+Body ID,Body,Product Name,Product Type,Horizontal Accuracy,Vertical Accuracy,Resolution,Coverage,Status,Offline Formats,Online Formats,Source/Producer,Data Provider,References
+401,Phobos,Oberst Control Network,Geodetic Coordinate Reference Frame (or Proxy),13.7m,?,N/A,Global,Current,['?'],?,DLR,?,['Oberst:2014pss']
+401,Phobos,Stereo-photoclinometry Derived Shape Model,Elevation,?,?,15mpp,Global,Current,['?'],SBMT,"Ernst, et al.",SBMT,['Ernst:2015lpsc']
+401,Phobos,Shape Model,Elevation,?,?,60mpp,Global,Superceded,['ICQ'],?,"Gaskell, et al.",PDS,['Gaskell:2011pds']
+401,Phobos,HRSC DEM,Elevation,20m,?,1.9ppd / 100 mpp,Global,Current,"['GeoTiff', 'IMG', 'JPEG2000']",?,DLR,"USGS, PSA, PDS",['Wahlisch:2010epsl']
+401,Phobos,Viking Global Mosaic,Absolutely Controlled Orthomosaics,?,?,40ppd / 5mpp,Global,Current,['GeoTiff'],?,"Simonelli, et al.",USGS,"['Simonelli:1993icarus', 'Stooke:2012pds']"
+401,Phobos,HSRC Mosaic,Absolutely Controlled Orthomosaics,20m,?,16ppd / 12 mpp,Global,Current,"['GeoTiff', 'IMG', 'JPEG2000']",?,DLR,"USGS, PSA, PDS",['Wahlisch:2010epsl']
+401,Phobos,Co-registered Image Data (>3400),Absolutely Controlled Orthoimages,?,?,Varies,Global,Current,['?'],SBMT,"Ernst, et al.",SBMT,['Ernst:2018lpsc']
+402,Deimos,Stereo-photoclinometry Derived Shape Model,Elevation,?,?,?,Global,Current,['?'],SBMT,"Ernst, et al.",SBMT,['Ernst:2015lpsc']
+402,Deimos,Co-registered Image Data (>950),Absolutely Controlled Orthoimages,?,?,Varies,Global,Current,['?'],SBMT,"Ernst, et al.",SBMT,['Ernst:2018lpsc']
+499,Mars,Goddard Mars Model 3 (GMM-3),Gravity,N/A,N/A,120kmpp,Global,Current,"['Ascii', 'IMG']",?,GSFC,PDS,['Genova:2016']
+499,Mars,Goddard Mars Model 2B (GMM2B),Gravity,N/A,N/A,120kmpp,Global,Superseded,"['Ascii', 'IMG']",?,GSFC,PDS,['Lemoine:2001']
+499,Mars,MGS95J Model,Gravity,N/A,N/A,120kmpp,Global,Superseded,"['Ascii', 'IMG']",?,JPL,PDS,['Konopliv:2006icarus']
+499,Mars,Interpolated MOLA DEM,Elevation,100m,3m,463mpp / 128ppd,Global,Current,"['IMG', 'Cube', 'GeoTiff']",WMS,GSFC,"PDS, PDS Annex",['?']
+499,Mars,HRSC / MOLA Blended Product,Elevation,100m,3m,200mpp,Global,Current,['GeoTIff'],?,USGS,USGS,['Fergason:2018web']
+499,Mars,HRSC South Pole DEMs / Merged Product,Elevation,?,Varies (See Reference),50mpp,82S - 90S,Current,['GeoTIff'],?,University College London,PSA Guest Facility,['Putri:2019pss']
+499,Mars,High Resolution Stereo Camera Derived DEMs (> 1250),Elevation,<100m,<4m,up to 50mpp,Regional,Current,"['IMG', 'GeoTiff']",?,HRCS Team / DLR,"PDS, PSA","['Gwinner:2010epsl', 'Dumke:2010']"
+499,Mars,HRSC South Pole Orthoimages / Orthomosaic,Elevation,?,Varies (See Reference),12.5mpp,82S-90S,Current,['GeoTiff'],?,University College London,PSA Guest Facility,['Putri:2019pss']
+499,Mars,CaSSIS DEM,Elevation,?,?,~20mpp,Regional,Current,"['GeoTiff', 'JPEG2000']",?,CaSSIS Team,CaSSIS Team,"['Conway:2018', 'Re:2019']"
+499,Mars,ASU HiRISE Dervied DEM (>600),Elevation,Varies,<1m,1-2mpp,Regional,Current,['IMG'],?,UA / USGS,PDS,"['Kirk:2008jgr', 'UA:2019web']"
+499,Mars,CTX Derived DEM,Elevation,?,?,20mpp,Regional,Current,"['IMG', 'Cube', 'GeoTiff']",?,USGS,PDS Annex,"['Fergason:2018', 'Fergason:2017ssr']"
+499,Mars,Terrain Relative Navigation CTX Orthorectified Image Mosaic,Absolutely Controlled Orthoimages,?,?,5mpp,Regional,Current,"['IMG', 'Cube', 'GeoTiff']",?,USGS,PDS Annex,"['Fergason:2020lpsc', 'Fergason:2018', 'Fergason:2017ssr']"
+499,Mars,USGS Derived Human Exploration CTX Orthomosaics,Relatively Controlled Orthoimages,100m,?,5mpp,Regional,Current,"['IMG', 'Cube', 'GeoTiff']",?,USGS,PDS Annex,['Hare:2016web']
+499,Mars,HiRISE Orthomosaics,Absolutely Controlled Orthoimages,Varies,<1m,0.25mpp,Regional,Current,"['IMG', 'JPEG2000']",?,"UA, USGS",PDS,"['Kirk:2008jgr', 'UA:2019web', 'Fergason:2020lpsc_a']"
+499,Mars,High Resolution Stereo Camera Derived Orthoimages (>1250),Absolutely Controlled Orthoimages,<100m,<4m,up to 12.5mpp,Regional,Current,"['IMG', 'JPEG2000']",?,"HRSC Team, DLR","PDS, PSA",['Gwinner:2010epsl']
+499,Mars,University College London Co-Registered Hi-resolution Data,Relatively Controlled Orthoimages,?,?,Varies,Regional,Current,['?'],iMars (?),University College London,?,"['Sidiropoulos:2016lpsc', 'Sidiropoulos:2016isprs']"
+499,Mars,Murray Lab Global CTX,Semi-controlled Unrectified Image Mosaic,?,?,5mpp,88S-88N,Current,['GeoTiff'],WMS,California Institute of Technology,California Institute of Technology,['Dickson:2018lpsc']
+499,Mars,Mars Digital Image Mosaic 2.1 (Control Network),Geodetic Coordinate Reference Frame (or Proxy),Average: 200m Max: 1000m,10m,N/A,Global,Current,"['Cube Control Network', 'PVL']",?,USGS,USGS,['Archinal:2003lpsc']
+499,Mars,Mars Digital Image Mosaic 2.1,Absolutely Controlled Orthomosaics,Average: 200m Max: 1000m,10m,231mpp / 256ppd,Global,Current,"['IMG', 'Cube', 'GeoTiff']",WMS,USGS,PDS Annex,"['Kirk:2001lpsc', 'Archinal:2003lpsc']"
+499,Mars,THEMIS Day IR Orthomosaic,Absolutely Controlled Orthomosaics,150m - 275m,?,100mpp,60S - 60N,Current,"['IMG', 'Cube', 'GeoTiff']",WMS,USGS,PDS Annex,['Fergason:2013lpsc']
+499,Mars,THEMIS Night IR Orthomosaic,Absolutely Controlled Orthomosaics,150m - 275m,?,100mpp,60S - 60N,Current,"['IMG', 'Cube', 'GeoTiff']",WMS,USGS,PDS Annex,['Fergason:2013lpsc']

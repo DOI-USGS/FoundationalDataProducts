@@ -1,0 +1,6 @@
+Body ID,Body,Product Name,Product Type,Horizontal Accuracy,Vertical Accuracy,Resolution,Coverage,Status,Offline Formats,Online Formats,Source/Producer,Data Provider,References
+801,Triton,Control Network,Geodetic Coordinate Reference Frame (or Proxy),?,?,N/A,?,Current,['IMQ'],?,USGS,USGS,['Davies:1991jgr']
+801,Triton,Control Network,Geodetic Coordinate Reference Frame (or Proxy),few km,?,N/A,available data <2km in resolution,Current,['ISIS Control Network'],Unreleased,USGS,Unreleased,['Bland:2020lpsc']
+801,Triton,Control Network,Controlled Unrectified Mosaic,?,?,39ppd / 600mpp,Hemisphere,Current,['GeoTiff'],Unreleased,USGS,USGS,['Davies:1991jgr']
+801,Triton,Control Network,Controlled Unrectified Images,few km,?,>2kmpp,available data <2km in resolution,Current,['Unreleased'],Unreleased,USGS,Unreleased,['Bland:2020lpsc']
+801,Triton,Stereo-scopically Derived Topography,Elevation,?,?,?,25% - 45%,Unreleased,['?'],?,Schenk et al.,Unreleased,['Schenk:2008isprs']

@@ -1,0 +1,13 @@
+Body ID,Body,Product Name,Product Type,Horizontal Accuracy,Vertical Accuracy,Resolution,Coverage,Status,Offline Formats,Online Formats,Source/Producer,Data Provider,References
+501,Io,Galilelo SSI / Voyager Global Mosaic,Absolutely Controlled Unrectified Mosaic,1km,?,1 - 10kmpp,85N - 85S,Current,['GeoTiff'],WMS,USGS,USGS,"['Becker:2005lpsc', 'Archinal:2001lpsc']"
+501,Io,Rand Control Network,Geodetic Coordinate Reference Frame (or Proxy),N,A,N/A,Global,Unreleased,['?'],?,RAND / USGS,Unreleased,['Davies:1979']
+501,Io,Stereo-dervied DEM,Elevation,<0.5 - >4km,0.2 - >1.6km,1kmpp (equator),~75%,Current,['Cube'],?,White et al.,AGU,['White:2014jgr']
+501,Io,Photoclinometry-derived DEM,Elevation,?,?,0.27 - 6.11kmpp,Regional,Current,['Cube'],?,White et al.,AGU,['White:2014jgr']
+502,Europa,Rand Control Network,Geodetic Coordinate Reference Frame (or Proxy),N,A,N/A,Global,Unreleased,['?'],Flat files,RAND,USGS,['Davies:1979']
+502,Europa,"Controlled Photomosaic Map of Europa, Je 15M CMN",Relatively Controlled Image Mosaic,?,?,200m - 20kmpp,Global,Current,['GeoTiff'],WMS,USGS,USGS,['USGS:2002']
+502,Europa,Europa Supermosaic,Uncontrolled Image Mosaic,?,?,?,Global(?),Unreleased,['?'],?,G. Collins,Unreleased,['?']
+503,Ganymede,RAND Control Network,Geodetic Coordinate Reference Frame (or Proxy),N,A,N/A,Global,Current,['?'],?,Rand,Unreleased,['Davies:1979']
+503,Ganymede,Galileo/Voyager Global Mosaic,Uncontrolled Image Mosaic,?,?,400m - 20kmpp,Global,Current,['GeoTiff'],WMS,USGS,USGS,['?']
+504,Callisto,Rand Control Network,Geodetic Coordinate Reference Frame (or Proxy),N,A,N/A,Global,Unreleased,['?'],?,Rand,?,['Davies:1979']
+504,Callisto,Galileo/Voyager Global Mosaic,Uncontrolled Image Mosaic,?,?,400mpp - 60kmpp,Global,Current,['GeoTiff'],WMS,USGS,USGS,['USGS:2001']
+599,Jupiter,Gravity Model,Gravity,?,?,?,Global,Unreleased,['?'],?,"Iess, et al.",Unreleased,"['Iess:2018nature', 'Buccino:2018agu']"

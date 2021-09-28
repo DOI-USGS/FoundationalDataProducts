@@ -1,0 +1,7 @@
+Body ID,Body,Product Name,Product Type,Horizontal Accuracy,Vertical Accuracy,Resolution,Coverage,Status,Offline Formats,Online Formats,Source/Producer,Data Provider,References
+901,Charon,Control Network,Geodetic Coordinate Reference Frame (or Proxy),?,?,N/A,?,Unreleased,['ISIS'],?,"Shenk, et al.",Unreleased,['Schenk:2018icarus']
+901,Charon,DEM,Elevation,?,1000m - 100m,35.25ppd / 300mpp,~40% (to available data),Current,"['GeoTiff', 'Cube']",WMS,"Shenk, et al.",USGS,['Schenk:2018icarus']
+901,Charon,Mosaic,Absolutely Controlled Unrectified Image Mosaic,?,?,35.25ppd / 300mpp 35km - 0.15kmpp (actual resolution),~40% (to available data),Current,"['GeoTiff', 'Cube']",WMS,"Shenk, et al.",USGS,['Schenk:2018icarus']
+999,Pluto,Control Network,Geodetic Coordinate Reference Frame (or Proxy),?,?,N/A,?,Unreleased,['ISIS'],?,"Shenk, et al.",Unreleased,['Schenk:2018icarus_b']
+999,Pluto,Global Mosaic,Absolutely Controlled Unrectified Image Mosaic,?,?,69.13ppd / 300mpp,~42% (to available data),Current,"['GeoTiff', 'Cube']",WMS,"Shenk, et al.",USGS,['Schenk:2018icarus_b']
+999,Pluto,DEM,Elevation,?,800m - 100m,69.13ppd / 300mpp,~42% (to available data),Current,"['GeoTiff', 'Cube']",WMS,"Shenk, et al.",USGS,['Schenk:2018icarus_b']

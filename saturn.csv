@@ -1,0 +1,31 @@
+Body ID,Body,Product Name,Product Type,Horizontal Accuracy,Vertical Accuracy,Resolution,Coverage,Status,Offline Formats,Online Formats,Source/Producer,Data Provider,References
+601,Mimas,Shape Model,Elevation,?,?,?,Global,Current,"['ICQ', 'Tab']",?,Gaskell,PDS,['Gaskell:2013pds']
+601,Mimas,Cassini Stereo Derived Topography,Elevation,?,?,?,Semi-Global,Unreleased,['?'],?,Shenk,Unreleased,['Schenk:2010web']
+601,Mimas,Cassini ISS Global Mosaic,Semi-controlled Unrectified Image Mosaic,?,?,700mpp to < 200mpp,Semi-Global,Current,"['IMG', 'PDF', 'PNG']",WMS,DLR,"DLR, PDS",['Roatsch:2018pss']
+602,Enceladus,Gravity Model,Gravity,N/A,N/A,?,Global,Current,['?'],?,"Iess, et al.",Unreleased,['Iess:2014sci']
+602,Enceladus,Shape Model,Elevation,<100m,29m-2km,2.2kmpp,Global,Unreleased,['?'],?,USGS,Unreleased,"['Bland:2020isprs', 'Bland:2019lpsc', 'Bland:2019pdw']"
+602,Enceladus,Cassini Stereo Derived Topography,Elevation,?,?,?,Semi-Global,Unreleased,['?'],?,Shenk,Unreleased,['Schenk:2010web']
+602,Enceladus,Cassini ISS Global Mosaic,Relatively Controlled Unrectified Image Mosaic,?,?,100mpp,Global,Current,"['GeoTiff', 'IMG']",WMS,DLR,"PDS, USGS",['Roatsch:2018pss']
+602,Enceladus,Cassini ISS GLobal Mosaic,Realtivel Controlled Unrectified Image Mosaic,?,?,110mpp / 44ppd,Global,Current,['GeoTiff'],?,USGS,USGS,['Bland:2018ess']
+603,Tethys,Shape Model,Elevation,?,?,?,Global,Current,"['ICQ', 'Tab']",?,Gaskell,PDS,['Gaskell:2013pdstethys']
+603,Tethys,Cassini Stereo Derived Topography,Elevation,?,?,?,Semi-Global,Unreleased,['?'],?,Shenk,Unreleased,['Schenk:2010web']
+603,Tethys,Cassini ISS Global Mosaic,Semi-controlled Unrectified Image Mosaic,?,?,32ppd / 293mpp,Global,Current,"['GeoTiff', 'IMG', 'PDF', 'PNG']",WMS,DLR,"DLR, PDS, USGS","['Roatsch:2016enc', 'Roatsch:2008isprs']"
+604,Dione,Gravity Model,Gravity,N/A,N/A,?,Global,Current,['?'],?,Unreleased,"Zannoni, et al.",['Zannoni:2020icarus']
+604,Dione,Shape Model,Elevation,?,?,?,Global,Current,"['ICQ', 'Tab']",?,Gaskell,PDS,['Gaskell:2013pdsdione']
+604,Dione,Cassini Stereo Derived Topography,Elevation,?,?,?,Semi-Global,Unreleased,['?'],?,Shenk,Unreleased,['Schenk:2010web']
+604,Dione,Cassini ISS Global Mosaic,Semi-controlled Unrectified Image Mosaic,?,?,154mpp,Global,Current,"['GeoTiff', 'IMG', 'PDF', 'PNG']",WMS,DLR,"DLR, PDS, USGS","['Roatsch:2016enc', 'Roatsch:2008isprs']"
+605,Rhea,Gravity Model,Gravity,N/A,N/A,?,Global,Current,['?'],?,"Tortora, et al.",Unreleased,['Tortora:2016icarus']
+605,Rhea,Cassini Stereo Derived Topography,Elevation,?,?,?,Semi-Global,Unreleased,['?'],?,Shenk,Unreleased,['Schenk:2010web']
+605,Rhea,Cassini ISS Global Mosaic,Semi-controlled Unrectified Image Mosaic,?,?,417mpp,Global,Current,"['GeoTiff', 'IMG', 'PDF', 'PNG']",?,DLR,"DLR, PDS, USGS","['Roatsch:2016enc', 'Roatsch:2008isprs']"
+606,Titan,Cassini ISS Global Mosaic,Uncontrolled Image Mosaic,?,?,11ppd / 4kmpp,95-97%,Current,['GeoTiff'],?,Perry et al.,USGS,['Perry:2005lpsc']
+606,Titan,Cassini ISS Mosaic,Absolutely Controlled Image Mosaic,?,?,100ppd / 450mpp,-65 to 45,Current,"['GeoTiff', 'PNG']",WMS,USGS,USGS,['Archinal:2013lpsc']
+606,Titan,Cassini SAR Spline Interpolated Global Topography,Elevation,?,?,1ppd / 45kmpp,Global,Current,['Tiff'],?,"Lorenz, et al.","UA, Icarus",['Lorenz:2013icarus']
+606,Titan,Radar Stereo-photogrammetric DEMs,Elevation,?,200m,Varies,Regional,Current,['Unreleased'],?,"Kirk, et al.",?,['Kirk:2012lpsc']
+606,Titan,Altimeter Echo DEMs,Elevation,?,35m,?,Regional,Current,['Unreleased'],?,"Zebker, et al.",?,['Zebker:2009']
+606,Titan,SAR Topo DEM,Elevation,?,160m,10kmpp,5.2%,Current,['Unreleased'],?,"Stiles, et al.",?,['Stiles:2009icarus']
+606,Titan,Merged / Interpolated Global DEM,Elevation,?,?,4ppd,Global,Current,['Text'],?,"Corlies, et al.",?,['Corlies:2017grl']
+606,Titan,Cassini VIMS Global Mosaic,Uncontrolled mosaic,?,?,32ppd / 1.4kmpp,Global,Unreleased,['?'],?,Le Mouélic et al.,Unreleased,['Mouelic:2019icarus']
+608,Iapetus,Cassini Stereo Derived Topography,Elevation,?,?,?,Semi-Global,Unreleased,['?'],?,Shenk,Unreleased,['Schenk:2010web']
+608,Iapetus,Cassini ISS Global Mosaic,Semi-controlled Unrectified Image Mosaic,?,?,16ppd / 803mpp,Semi-Global,Current,"['GeoTiff', 'IMG', 'PDF', 'PNG']",WMS,DLR,"DLR, PDS, USGS","['Roatsch:2016enc', 'Roatsch:2008isprs']"
+609,Phoebe,Shape Model,Elevation,?,?,?,Global,Current,"['ICQ', 'Tab']",?,Gaskell,PDS,['Gaskell:2013pdsphoebe']
+609,Phoebe,Cassini ISS Global Mosaic,Semi-controlled Unrectified Image Mosaic,?,?,233mpp,Semi-Global,Current,"['IMG', 'PDF', 'PNG']",?,DLR,"DLR, PDS","['Roatsch:2016enc', 'Roatsch:2008isprs']"

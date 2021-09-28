@@ -1,0 +1,8 @@
+Product Name,Product Type,Horizontal Accuracy,Vertical Accuracy,Resolution,Coverage,Status,Offline Formats,Online Formats,Source/Producer,Data Provider,References
+Magellan MGNP180U,Gravity,NA,NA,1ppd,Near Global,Current,"['DAT', 'IMG']",['?'],JPL,PDS,['Konopliv:1999icarus']
+Magellan SAR Altimeter,Elevation,?,50m,22ppd / 5kmpp,Near Global,Current,"['IMG', 'GeoTiff']",['WMS'],USGS,"PDS, USGS",['Ford:1992jgr']
+Magellan SAR Regional Stereo DEMs,Elevation,?,?,~500mpp,Regional,Current,['GeoTiff'],['?'],"Herrick, et al.",Web page,['Herrick:2012eos']
+Magellan SAR Cycle 3 Stereo DEMs,Elevation,?,?,~500mpp,~21.3%,Current,['?'],['?'],"Nunes, et al.",?,"['Nunes:2018lpsc', 'Thomson:2017lpsc']"
+Magellan C3 MIDR Mosaic,Uncontrolled Image Mosaic,?,?,52ppd / 2025mpp,Near Global,Current,['GeoTiff'],['WMS'],USGS,"PDS, USGS",['Ford:1993']
+Magellan F-Map Left-look Mosaic,Uncontrolled Image Mosaic,?,?,1408ppd / 75mpp,92%,Current,['GeoTiff'],['WMS'],USGS,PDS,['?']
+Magellan F-Map Right-look Mosaic,Uncontrolled Image Mosaics,?,?,1408ppd / 75mpp,55%,Current,['GeoTiff'],['WMS'],USGS,PDS,['?']
