@@ -1,4 +1,4 @@
-iProduct Name,Product Type,Horizontal Accuracy,Vertical Accuracy,Resolution,Coverage,Status,Offline Formats,Online Formats,Source/Producer,Data Provider,References
+Product Name,Product Type,Horizontal Accuracy,Vertical Accuracy,Resolution,Coverage,Status,Offline Formats,Online Formats,Source/Producer,Data Provider,References
 HgM008,Gravity,N/A,N/A,16ppd,Global,Current,IMG,?,GSFC,PDS,['Genova:2019grl']
 MLA Derived Geodetic Parameters,Geodetic Coordinate Reference Frame (or Proxy),?,?,300kmpp,Global,Current,IMG,?,"Zuber, et al.",PDS,['Zuber:2012sci']
 Mariner 10 Dervied DEM,Elevation,~20km,?,300kmpp,Regional,Superseded,?,?,Cook et al.,?,Cook:2000jgr
