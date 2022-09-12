@@ -39,13 +39,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 17.3.0
-        run: npm install
-
-      - name: Build Site
-        uses: actions/setup-node@v3
-        with:
-          node-version: 17.3.0
-        run: npm run build
+      -name: Build Site
+        run: |
+          npm install
+          npm run build
 
       - name: Set AWS credentials for upload
         uses: aws-actions/configure-aws-credentials@v1
