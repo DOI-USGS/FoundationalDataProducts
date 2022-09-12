@@ -1,0 +1,711 @@
+---
+title: "Small Bodies"
+date: 2021-09-28T10:54:07-07:00
+draft: false
+weight: 10
+bibFile: "content/bibliography.json"
+---
+
+
+{{< data-table >}}
+{
+    "headers": [
+        "Body",
+        "Product Name",
+        "Product Type",
+        "Horizontal Accuracy",
+        "Vertical Accuracy",
+        "Resolution",
+        "Coverage",
+        "Status",
+        "Offline Formats",
+        "Online Formats",
+        "Data Producer",
+        "Data Provider",
+        "References"
+    ],
+    "rows": [
+    {
+      "Body ID": 2000001,
+      "Body": "Ceres",
+      "Product Name": "Gravity Model",
+      "Product Type": "Gravity",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "300kmpp",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["IMG", "Tab"],
+      "Online Formats": "?",
+      "Data Producer": "Konopliv, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Konopliv:2012", "Konopliv:2018icarus", "Park:2018pds"]
+    },
+    {
+      "Body ID": 2000001,
+      "Body": "Ceres",
+      "Product Name": "Dawn FC global DEM (HAMO)",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "10m",
+      "Resolution": "60ppd / 136mpp",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["GeoTiff", "IMG"],
+      "Online Formats": "?",
+      "Data Producer": "DLR",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Preusker:2016lpsc", "Roatsch:2018pds"]
+    },
+    {
+      "Body ID": 2000001,
+      "Body": "Ceres",
+      "Product Name": "Dawn FC Regional DEM (LAMO)",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "~1.5m",
+      "Resolution": "256ppd / 32mpp",
+      "Coverage": "Regional",
+      "Status": "Superseded",
+      "Offline Formats": ["IMG"],
+      "Online Formats": "?",
+      "Data Producer": "DLR",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Preusker:2016lpsc"]
+    },
+    {
+      "Body ID": 2000001,
+      "Body": "Ceres",
+      "Product Name": "Regional DEMs and Mosaics",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "~1.5m",
+      "Resolution": "256ppd / 32mpp",
+      "Coverage": "Regional",
+      "Status": "Current",
+      "Offline Formats": ["IMG"],
+      "Online Formats": "?",
+      "Data Producer": "DLR",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Jaumann:2017lpsc"]
+    },
+    {
+      "Body ID": 2000001,
+      "Body": "Ceres",
+      "Product Name": "Dawn Stereo-photoclinometric (SPC) - LAMO",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "mean 10m, 89% < 20m",
+      "Resolution": "100mpp",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["DSK", "ICQ", "IMG"],
+      "Online Formats": "WMS",
+      "Data Producer": "Park, et al.",
+      "Data Provider": [
+            {
+                "name": "NAIF",
+                "href": ""
+            },{
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Park:2019icarus", "Park:2018pds_a"]
+    },
+    {
+      "Body ID": 2000001,
+      "Body": "Ceres",
+      "Product Name": "Dawn FC global mosaic (HAMO)",
+      "Product Type": "Absolutely Controlled Orthomosaic",
+      "Horizontal Accuracy": "~16m",
+      "Vertical Accuracy": "~16m",
+      "Resolution": "140mpp",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["GeoTiff", "IMG"],
+      "Online Formats": "WMS",
+      "Data Producer": "DLR",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        },{
+        "name": "USGS",
+        "href": ""
+    }
+],
+      "References": ["Roatsch:2016pss"]
+    },
+    {
+      "Body ID": 2000001,
+      "Body": "Ceres",
+      "Product Name": "Dawn FC global mosaic (LAMO)",
+      "Product Type": "Absolutely Controlled Orthomosaic",
+      "Horizontal Accuracy": "~16m",
+      "Vertical Accuracy": "~16m",
+      "Resolution": "140mpp",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["GeoTiff", "IMG"],
+      "Online Formats": "?",
+      "Data Producer": "DLR",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        },{
+        "name": "USGS",
+        "href": ""
+    }
+],
+      "References": ["Roatsch:2016pss"]
+    },
+    {
+      "Body ID": 2000004,
+      "Body": "Vesta",
+      "Product Name": "Gravity Model",
+      "Product Type": "Gravity",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "90kmpp",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["IMG", "Tab"],
+      "Online Formats": "?",
+      "Data Producer": "Konopliv, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Konopliv:2014icarus", "Konopliv:2017pds"]
+    },
+    {
+      "Body ID": 2000004,
+      "Body": "Vesta",
+      "Product Name": "Dawn Stereo-photogrammetric (SPG) - HAMO",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "~8m",
+      "Vertical Accuracy": "~8m",
+      "Resolution": "64ppd / 70mpp",
+      "Coverage": "~95%",
+      "Status": "Current",
+      "Offline Formats": ["GeoTiff", "IMG"],
+      "Online Formats": "?",
+      "Data Producer": "DLR",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Preusker:2012epsc", "Jaumann:2012sci"]
+    },
+    {
+      "Body ID": 2000004,
+      "Body": "Vesta",
+      "Product Name": "Dawn Stereo-photoclinometric (SPC) - LAMO",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "64ppd / 70mpp",
+      "Coverage": "Near Global",
+      "Status": "Un-released",
+      "Offline Formats": [""],
+      "Online Formats": "?",
+      "Data Producer": "Gaskell, et al.",
+      "Data Provider": [
+        {
+            "name": "unreleased",
+            "href": ""
+        }
+    ],
+      "References": ["Gaskell2012dps"]
+    },
+    {
+      "Body ID": 2000004,
+      "Body": "Vesta",
+      "Product Name": "Dawn FC global Mosaic (LAMO)",
+      "Product Type": "Absolutely Controlled Orthomosaic",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "20mpp",
+      "Coverage": "~84%",
+      "Status": "Current",
+      "Offline Formats": ["GeoTiff", "IMG"],
+      "Online Formats": "?",
+      "Data Producer": "DLR",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Roatsch:2013egu"]
+    },
+    {
+      "Body ID": 2000004,
+      "Body": "Vesta",
+      "Product Name": "Dawn FC global Mosaic (HAMO)",
+      "Product Type": "Absolutely Controlled Orthomosaic",
+      "Horizontal Accuracy": "~8m",
+      "Vertical Accuracy": "~8m",
+      "Resolution": "60mpp",
+      "Coverage": "Global",
+      "Status": "Superseded",
+      "Offline Formats": ["GeoTiff", "IMG"],
+      "Online Formats": "WMS",
+      "Data Producer": "DLR",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["LeCorre:2017pdw"]
+    },
+    {
+      "Body ID": 2000021,
+      "Body": "Lutetia",
+      "Product Name": "Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "1,500,000 facets",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["VRML"],
+      "Online Formats": "?",
+      "Data Producer": "Jorda, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Sierks:2011sci"]
+    },
+    {
+      "Body ID": 2000433,
+      "Body": "Eros",
+      "Product Name": "Stereo-photoclinometric (SPC) Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "$(512 + 1) ^ 2$ Vertices / Face",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["Tab", "ICQ"],
+      "Online Formats": "?",
+      "Data Producer": "Gaskell, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Gaskell:2008pds"]
+    },
+    {
+      "Body ID": 2002867,
+      "Body": "Steins",
+      "Product Name": "OSIRIS Derived SPC Derived Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "20m",
+      "Vertical Accuracy": "?",
+      "Resolution": "> 70m / facet",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["VRML"],
+      "Online Formats": "?",
+      "Data Producer": "Jorda, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Jorda:2012icarus"]
+    },
+    {
+      "Body ID": 2025143,
+      "Body": "Itokawa",
+      "Product Name": "Stereo-photoclinometric (SPC) Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "$(256 + 1) ^ 2$ Vertices / Face",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["Tab", "ICQ"],
+      "Online Formats": "?",
+      "Data Producer": "Gaskell, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Gaskell:2006lpsc"]
+    },
+    {
+      "Body ID": 2101955,
+      "Body": "Bennu",
+      "Product Name": "Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "10m",
+      "Vertical Accuracy": "52m",
+      "Resolution": "25m between vertices",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["Tab", "Obj", "Wavefront"],
+      "Online Formats": "?",
+      "Data Producer": "Nolan, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Nolan:2013pds"]
+    },
+    {
+      "Body ID": 2101955,
+      "Body": "Bennu",
+      "Product Name": "Shape Model (SPC)",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "<0.5m",
+      "Vertical Accuracy": "<0.5m",
+      "Resolution": "0.75~m",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["?"],
+      "Online Formats": "?",
+      "Data Producer": "Barnouin, et al.",
+      "Data Provider": [
+        {
+            "name": "unreleased",
+            "href": ""
+        }
+    ],
+      "References": ["Barnouin:2019pss", "Barnouin:2020pss"]
+    },
+    {
+      "Body ID": 2101955,
+      "Body": "Bennu",
+      "Product Name": "Shape Model (Laser Altimieter)",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "<0.5m",
+      "Vertical Accuracy": "<0.5m",
+      "Resolution": "0.75~m",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["?"],
+      "Online Formats": "?",
+      "Data Producer": "Barnouin, et al.",
+      "Data Provider": [
+        {
+            "name": "unreleased",
+            "href": ""
+        }
+    ],
+      "References": ["Barnouin:2019pss", "Barnouin:2020pss"]
+    },
+    {
+      "Body ID": 2101955,
+      "Body": "Bennu",
+      "Product Name": "Global Basemap",
+      "Product Type": "Absolutely Controlled Orthomosaic",
+      "Horizontal Accuracy": "30~cm",
+      "Vertical Accuracy": "30~cm",
+      "Resolution": "0.5cm",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["GeoTiff"],
+      "Online Formats": "?",
+      "Data Producer": "Bennet, et al.",
+      "Data Provider": [
+        {
+            "name": "USGS",
+            "href": ""
+        }
+    ],
+      "References": ["Bennett:2020icarus"]
+    },
+    {
+      "Body ID": 2162173,
+      "Body": "Ryugu",
+      "Product Name": "Structure From Motion (SfM) Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "?",
+      "Coverage": "Global",
+      "Status": "Un-released",
+      "Offline Formats": ["?"],
+      "Online Formats": "?",
+      "Data Producer": "University of Aizu",
+      "Data Provider": [
+        {
+            "name": "unreleased",
+            "href": ""
+        }
+    ],
+      "References": ["JAXA:2018web"]
+    },
+    {
+      "Body ID": 2162173,
+      "Body": "Ryugu",
+      "Product Name": "Stereo-photoclinometric (SPC)) Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "?",
+      "Coverage": "Global",
+      "Status": "Un-released",
+      "Offline Formats": ["?"],
+      "Online Formats": "?",
+      "Data Producer": "Kobe University, University of Aizu",
+      "Data Provider": [
+        {
+            "name": "unreleased",
+            "href": ""
+        }
+    ],
+      "References": ["JAXA:2018web"]
+    },
+    {
+      "Body ID": 486958,
+      "Body": "Arrokoth",
+      "Product Name": "??? LORRI Global Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "?",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["Obj"],
+      "Online Formats": "?",
+      "Data Producer": "Spencer, et al.",
+      "Data Provider": [
+        {
+            "name": "Science",
+            "href": ""
+        }
+    ],
+      "References": ["Spencer:2020sci"]
+    },
+    {
+      "Body ID": 486958,
+      "Body": "Arrokoth",
+      "Product Name": "Stereo-photogrammetric Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "?",
+      "Coverage": "$<50%$",
+      "Status": "Current",
+      "Offline Formats": ["Obj"],
+      "Online Formats": "?",
+      "Data Producer": "Spencer, et al.",
+      "Data Provider": [
+        {
+            "name": "Science",
+            "href": ""
+        }
+    ],
+      "References": ["Spencer:2020sci"]
+    },
+    {
+      "Body ID": 1000005,
+      "Body": "Borrelly",
+      "Product Name": "Stereo-photogrammetric Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "100m",
+      "Resolution": "500m",
+      "Coverage": "~50%",
+      "Status": "Current",
+      "Offline Formats": ["TAB"],
+      "Online Formats": "?",
+      "Data Producer": "Oberst, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Oberst:2004icarus"]
+    },
+    {
+      "Body ID": 1000005,
+      "Body": "Borrelly",
+      "Product Name": "Stereo-photogrammetric Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "100m",
+      "Resolution": "500m",
+      "Coverage": "~50%",
+      "Status": "Current",
+      "Offline Formats": ["TAB"],
+      "Online Formats": "?",
+      "Data Producer": "USGS",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Kirk:2004pds"]
+    },
+    {
+      "Body ID": 1000012,
+      "Body": "Comet 67P/C-G",
+      "Product Name": "NavCam Derived SPC Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": ">4,000,000 facets",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["DSK", "ROS"],
+      "Online Formats": "?",
+      "Data Producer": "ESA, Rosetta Mission",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["esaspc:2017"]
+    },
+    {
+      "Body ID": 1000012,
+      "Body": "Comet 67P/C-G",
+      "Product Name": "OSIRIS SPC Derived Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "<2m",
+      "Vertical Accuracy": "<2m",
+      "Resolution": ">5,000,000 plates, 1-2m maplets",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["DSK", "VRML"],
+      "Online Formats": "?",
+      "Data Producer": "Gaskell, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Preusker:2015aaa"]
+    },
+    {
+      "Body ID": 1000012,
+      "Body": "Comet 67P/C-G",
+      "Product Name": "OSIRIS Derived SPG Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "<2m",
+      "Vertical Accuracy": "<2m",
+      "Resolution": "2m, >16,000,000 facets",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["DSK", "VRML"],
+      "Online Formats": "?",
+      "Data Producer": "DLR",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Preusker:2015aaa"]
+    },
+    {
+      "Body ID": 1000012,
+      "Body": "Comet 67P/C-G",
+      "Product Name": "Multiresolution Photoclinometry by Deformation Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": ">1,000,000 plates",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["DSK", "VRML"],
+      "Online Formats": "?",
+      "Data Producer": "Jorda, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Jorda:2016icarus", "Capanna:2015pds"]
+    },
+    {
+      "Body ID": 1000041,
+      "Body": "Comet 103P / Hartley 2",
+      "Product Name": "EPOXI Derived Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "10m (visible) 30m (silhouettes)",
+      "Vertical Accuracy": "18m",
+      "Resolution": "> 32,000 plates",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["TAB", "VRML"],
+      "Online Formats": "?",
+      "Data Producer": "Thomas, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Thomas:2013icarus"]
+    },
+    {
+      "Body ID": 1000093,
+      "Body": "Comet Tempel 1",
+      "Product Name": "Deep Impact Derived Shape Model",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "20m",
+      "Vertical Accuracy": "20m",
+      "Resolution": "> 32,000 plates",
+      "Coverage": "Global",
+      "Status": "Current",
+      "Offline Formats": ["TAB"],
+      "Online Formats": "?",
+      "Data Producer": "Thomas, et al.",
+      "Data Provider": [
+        {
+            "name": "PDS",
+            "href": ""
+        }
+    ],
+      "References": ["Thomas:2007icarus"]
+    }
+  ]
+}
+{{< /data-table >}}

@@ -1,0 +1,517 @@
+{
+    "headers": [
+        "Product Name",
+        "Product Type",
+        "Horizontal Accuracy",
+        "Vertical Accuracy",
+        "Resolution",
+        "Coverage",
+        "Status",
+        "Offline Formats",
+        "Online Formats",
+        "Data Producer",
+        "Data Provider",
+        "References"
+    ],
+    "rows": [
+        {
+            "Product Name": "HgM008",
+            "Product Type": "Gravity",
+            "Horizontal Accuracy": "N/A",
+            "Vertical Accuracy": "N/A",
+            "Resolution": "16ppd",
+            "Coverage": "Global",
+            "Status": "Current",
+            "Offline Formats": "IMG",
+            "Online Formats": "?",
+            "Data Producer": "GSFC",
+            "Data Provider": [
+                {
+                    "name": "GSFC",
+                    "href": "https://pgda.gsfc.nasa.gov/products/71"
+                },
+                {
+                    "name": "PDS",
+                    "href": "https://pds-geosciences.wustl.edu/messenger/mess-h-rss_mla-5-sdp-v1/messrs_1001/data/shadr/"
+                }
+            ],
+            "References": ["Genova:2019grl"]
+        },
+        {
+            "Product Name": "MLA Derived Geodetic Parameters",
+            "Product Type": "Geodetic Coordinate Reference Frame (or Proxy)",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "300kmpp",
+            "Coverage": "Global",
+            "Status": "Current",
+            "Offline Formats": "IMG",
+            "Online Formats": "?",
+            "Data Producer": "Zuber, et al.",
+            "Data Provider": [{"name":"unknown","href":""}],
+            "References": ["Zuber:2012sci"]
+        },
+        {
+            "Product Name": "Mariner 10 Derived DEM",
+            "Product Type": "Elevation",
+            "Horizontal Accuracy": "~20km",
+            "Vertical Accuracy": "?",
+            "Resolution": "300kmpp",
+            "Coverage": "Regional",
+            "Status": "Superseded",
+            "Offline Formats": "?",
+            "Online Formats": "?",
+            "Data Producer": "Cook et al.",
+            "Data Provider": [{"name":"unknown","href":""}],
+            "References": ["Cook:2000jgr"]
+        },
+        {
+            "Product Name": "MESSENGER MDIS Global DEM",
+            "Product Type": "Elevation",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "64ppd / 655mpp",
+            "Coverage": "Global",
+            "Status": "Current",
+            "Offline Formats": [
+                "GeoTiff",
+                "IMG",
+                "JPEG2000",
+                "Cube"
+            ],
+            "Online Formats": "?",
+            "Data Producer": [
+                "USGS",
+                "APL",
+                "Carnegie Science"
+            ],
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "https://pdsimage2.wr.usgs.gov/data/mess-h-mdis-5-dem-elevation-v1.0/MESSDEM_1001/DEM/GLOBAL/"
+                },
+                {
+                    "name": "USGS",
+                    "href": "https://astrogeology.usgs.gov/search/map/Mercury/Topography/MESSENGER/Mercury_Messenger_USGS_DEM_Global_665m_v2"
+                }
+            ],
+            "References": [
+                "Becker:2016lpsc",
+                "Becker:2017sis"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER North Polar MLA Derived DEM V2",
+            "Product Type": "Elevation",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "250mpp",
+            "Coverage": "75N - 90N",
+            "Status": "Current",
+            "Offline Formats": [
+                "IMG",
+                "JPEG2000"
+            ],
+            "Online Formats": "?",
+            "Data Producer": "GSFC",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "https://pdsimage2.wr.usgs.gov/archive/mess-h-mdis-5-dem-elevation-v1.0/MESSDEM_1001/DEM/POLAR/"
+                }
+            ],
+            "References": [
+                "Solomon:2007ssr"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER North Polar MLA Derived DEM V1",
+            "Product Type": "Elevation",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "2.66kmpp",
+            "Coverage": "18S - 90N (Partial)",
+            "Status": "Partially Superseded",
+            "Offline Formats": [
+                "IMG",
+                "JPEG2000"
+            ],
+            "Online Formats": "?",
+            "Data Producer": "GSFC",
+            "Data Provider": [{"name":"unknown","href":"."}],
+            "References": [
+                "Solomon:2007ssr"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER DEM H03 Quad",
+            "Product Type": "Elevation",
+            "Horizontal Accuracy": "45m",
+            "Vertical Accuracy": "30m",
+            "Resolution": "220mpp",
+            "Coverage": "Quad",
+            "Status": "Current",
+            "Offline Formats": [
+                "IMG",
+                "JPEG2000"
+            ],
+            "Online Formats": "?",
+            "Data Producer": "DLR",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "https://pdsimage2.wr.usgs.gov/data/mess-h-mdis-5-dem-elevation-v1.0/MESSDEM_1001/DEM/QUAD/IMG/"
+                }
+            ],
+            "References": [
+                "Preusker:2017lpsc",
+                "Becker:2017sis"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER DEM H05 Quad",
+            "Product Type": "Elevation",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "35m",
+            "Resolution": "220mpp",
+            "Coverage": "Quad",
+            "Status": "Current",
+            "Offline Formats": [
+                "IMG",
+                "JPEG2000"
+            ],
+            "Online Formats": "?",
+            "Data Producer": "DLR",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "https://pdsimage2.wr.usgs.gov/data/mess-h-mdis-5-dem-elevation-v1.0/MESSDEM_1001/DEM/QUAD/IMG/"
+                }
+            ],
+            "References": [
+                "Stark:2017lpsc",
+                "Becker:2017sis"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER DEM H06 Quad",
+            "Product Type": "Elevation",
+            "Horizontal Accuracy": "55m",
+            "Vertical Accuracy": "30m",
+            "Resolution": "220mpp",
+            "Coverage": "Quad",
+            "Status": "Current",
+            "Offline Formats": [
+                "IMG",
+                "JPEG2000"
+            ],
+            "Online Formats": "?",
+            "Data Producer": "DLR",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "https://pdsimage2.wr.usgs.gov/data/mess-h-mdis-5-dem-elevation-v1.0/MESSDEM_1001/DEM/QUAD/IMG/"
+                }
+            ],
+            "References": [
+                "Preusker:2017pss",
+                "Becker:2017sis"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER DEM H07 Quad",
+            "Product Type": "Elevation",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "35m",
+            "Resolution": "220mpp",
+            "Coverage": "Quad",
+            "Status": "Current",
+            "Offline Formats": [
+                "IMG",
+                "JPEG2000"
+            ],
+            "Online Formats": "?",
+            "Data Producer": "DLR",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "https://pdsimage2.wr.usgs.gov/data/mess-h-mdis-5-dem-elevation-v1.0/MESSDEM_1001/DEM/QUAD/IMG/"
+                }
+            ],
+            "References": [
+                "Oberst:2017lpsc",
+                "Becker:2017sis"
+            ]
+        },
+        {
+            "Product Name": "Fassett Regional DEMs",
+            "Product Type": "Elevation",
+            "Horizontal Accuracy": "50-250m (See reference)",
+            "Vertical Accuracy": "10m (See reference)",
+            "Resolution": "See reference",
+            "Coverage": "Regional",
+            "Status": "Current",
+            "Offline Formats": [
+                "GeoTiff",
+                "IMG"
+            ],
+            "Online Formats": "?",
+            "Data Producer": "Fassett et al.",
+            "Data Provider": [
+                {
+                    "name": "USGS",
+                    "href": "https://astrogeology.usgs.gov/search/map/Mercury/Topography/Fassett_MDIS_Stereo/Fassett_MESSENGER_MDIS_DEMs"
+                }
+            ],
+            "References": [
+                "Fassett:2016pss",
+                "Fassett:2018web"
+            ]
+        },
+        {
+            "Product Name": "ASU Regional DEMs",
+            "Product Type": "Elevation",
+            "Horizontal Accuracy": "70-380m (See reference)",
+            "Vertical Accuracy": "2-255m (See reference)",
+            "Resolution": "See reference",
+            "Coverage": "Regional",
+            "Status": "Current",
+            "Offline Formats": [
+                "GeoTiff",
+                "IMG"
+            ],
+            "Online Formats": "?",
+            "Data Producer": "ASU",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "https://pdsimage2.wr.usgs.gov/data/mess-h-mdis-5-dem-elevation-v1.0/MESSDEM_1001/DEM/REGIONAL/IMG/"
+                }
+            ],
+            "References": [
+                "Manheim:2017pdw"
+            ]
+        },
+        {
+            "Product Name": "Mariner 10 Mosaic",
+            "Product Type": "Absolutely Controlled Orthomosaics",
+            "Horizontal Accuracy": "~20km",
+            "Vertical Accuracy": "?",
+            "Resolution": "1kmpp",
+            "Coverage": "Regional",
+            "Status": "Superseded",
+            "Offline Formats": [
+                "IMG"
+            ],
+            "Online Formats": "?",
+            "Data Producer": "ASU",
+            "Data Provider": [
+                {
+                    "name": "ASU",
+                    "href": "http://ser.sese.asu.edu/M10/IMAGE_ARCHIVE/MOSAICS/index.html"
+                }
+            ],
+            "References": [
+                "Robinson:1999jgr"
+            ]
+        },
+        {
+            "Product Name": "Regional Orthoimages",
+            "Product Type": "Absolutely Controlled Orthoimages",
+            "Horizontal Accuracy": "70-380m (See reference)",
+            "Vertical Accuracy": "2-255m (See reference)",
+            "Resolution": "See reference",
+            "Coverage": "Regional",
+            "Status": "Current",
+            "Offline Formats": [
+                "GeoTiff",
+                "IMG"
+            ],
+            "Online Formats": "?",
+            "Data Producer": "ASU",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "https://pdsimage2.wr.usgs.gov/data/mess-h-mdis-5-dem-elevation-v1.0/MESSDEM_1001/DEM/REGIONAL/IMG/"
+                }
+            ],
+            "References": [
+                "Manheim:2017pdw",
+                "Becker:2017sis"
+            ]
+        },
+        {
+            "Product Name": "Mercury MESSENGER MDIS Global Basemap BDR",
+            "Product Type": "Absolutely Controlled Orthomosaic",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "256ppd / 166mpp",
+            "Coverage": "Global",
+            "Status": "Current",
+            "Offline Formats": [
+                "GeoTiff",
+                "IMG"
+            ],
+            "Online Formats": "WMS",
+            "Data Producer": "ACTC",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "https://pdsimage2.wr.usgs.gov/data/mess-h-mdis-5-rdr-bdr-v1.0/MSGRMDS_4001/);[USGS](https://astrogeology.usgs.gov/search/map/Mercury/Messenger/Global/Mercury_MESSENGER_MDIS_Basemap_BDR_Mosaic_Global_166m"
+                }
+            ],
+            "References": [
+                "Murchie:2017"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER Wide Angle Map-Projected Regional Targeted Mosaic",
+            "Product Type": "Absolutely Controlled Orthomosaics",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "591ppd / 72mpp",
+            "Coverage": "Regional",
+            "Status": "Current",
+            "Offline Formats": "IMG",
+            "Online Formats": "?",
+            "Data Producer": "ACTC",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "https://pdsimage2.wr.usgs.gov/data/mess-h-mdis-5-rdr-rtm-v1.0/MSGRMDS_8001/"
+                }
+            ],
+            "References": [
+                "Murchie:2017"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER MDIS NAC/WAC Mosaics (By Mercury Quad / BDR Data)",
+            "Product Type": "Absolutely Controlled Orthomosaics",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "256ppd / 166mpp",
+            "Coverage": "Global",
+            "Status": "Current",
+            "Offline Formats": "IMG",
+            "Online Formats": "?",
+            "Data Producer": "ACTC",
+            "Data Provider": [{"name":"PDS","href":"foo"}],
+            "References": [
+                "Murchie:2017"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER MDIS NAC/WAC High Incidence Angle East Mosaic",
+            "Product Type": "Absolutely Controlled Orthomosaics",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "256ppd / 166mpp",
+            "Coverage": "Global",
+            "Status": "Current",
+            "Offline Formats": "IMG",
+            "Online Formats": "?",
+            "Data Producer": "ACTC",
+            "Data Provider": [{"name":"PDS","href":"foo"}],
+            "References": [
+                "Murchie:2017"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER MDIS NAC/WAC High Incidence Angle West Mosaic",
+            "Product Type": "Absolutely Controlled Orthomosaics",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "256ppd / 166mpp",
+            "Coverage": "Global",
+            "Status": "Current",
+            "Offline Formats": "IMG",
+            "Online Formats": "?",
+            "Data Producer": "ACTC",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "foo"
+                }
+            ],
+            "References": [
+                "Murchie:2017"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER MDIS NAC/WAC Low Incidence Angle Mosaic",
+            "Product Type": "Absolutely Controlled Orthomosaics",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "256ppd / 166mpp",
+            "Coverage": "Global",
+            "Status": "Current",
+            "Offline Formats": "IMG",
+            "Online Formats": "?",
+            "Data Producer": "ACTC",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "foo"
+                },
+                {
+                    "name": "USGS",
+                    "href": "https://astrogeology.usgs.gov/search/map/Mercury/Messenger/Global/Mercury_MESSENGER_MDIS_Basemap_LOI_Mosaic_Global_166m"
+                }
+            ],
+            "References": [
+                "Murchie:2017"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER MDIS 3-Color Map Projected Mosaic",
+            "Product Type": "Absolutely Controlled Orthomosaic",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "64ppd",
+            "Coverage": "Global",
+            "Status": "Current",
+            "Offline Formats": "IMG",
+            "Online Formats": "?",
+            "Data Producer": "ACTC",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "foo"
+                },
+                {
+                    "name": "USGS",
+                    "href": "https://astrogeology.usgs.gov/search/map/Mercury/Messenger/Global/Mercury_MESSENGER_MDIS_Basemap_EnhancedColor_Mosaic_Global_665m"
+                }
+            ],
+            "References": [
+                "Denevi:2016lpsc"
+            ]
+        },
+        {
+            "Product Name": "MESSENGER MDIS 5-Color Map Projected Multispectral Mosaic",
+            "Product Type": "Absolutely Controlled Orthomosaic",
+            "Horizontal Accuracy": "?",
+            "Vertical Accuracy": "?",
+            "Resolution": "128ppd / 332mpp",
+            "Coverage": "Global",
+            "Status": "Current",
+            "Offline Formats": "IMG",
+            "Online Formats": "?",
+            "Data Producer": "ACTC",
+            "Data Provider": [
+                {
+                    "name": "PDS",
+                    "href": "foo"
+                },
+                {
+                    "name": "USGS",
+                    "href": "https://astrogeology.usgs.gov/search/map/Mercury/Messenger/Global/Mercury_MESSENGER_MDIS_Basemap_EnhancedColor_Mosaic_Global_665m"
+                }
+            ],
+            "References": [
+                "Denevi:2016lpsc"
+            ]
+        }
+    ]
+}

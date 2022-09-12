@@ -1,0 +1,7 @@
+more:
+  - name: News
+    ref: "/posts"
+    icon: "gdoc_notification"
+  - name: Links
+    ref: "/links"
+    icon: "gdoc_link"

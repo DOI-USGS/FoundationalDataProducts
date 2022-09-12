@@ -1,0 +1,134 @@
+---
+title: "Neptune & Satellites"
+date: 2021-09-28T10:54:07-07:00
+draft: false
+weight: 8
+bibFile: "content/bibliography.json"
+---
+
+{{< data-table >}}
+{
+    "headers": [
+        "Body",
+        "Product Name",
+        "Product Type",
+        "Horizontal Accuracy",
+        "Vertical Accuracy",
+        "Resolution",
+        "Coverage",
+        "Status",
+        "Offline Formats",
+        "Online Formats",
+        "Data Producer",
+        "Data Provider",
+        "References"
+    ],
+    "rows": [
+    {
+      "Body ID": 801,
+      "Body": "Triton",
+      "Product Name": "Control Network",
+      "Product Type": "Geodetic Coordinate Reference Frame (or Proxy)",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "N/A",
+      "Coverage": "?",
+      "Status": "Current",
+      "Offline Formats": ["IMQ"],
+      "Online Formats": "?",
+      "Data Producer": "USGS",
+      "Data Provider": [
+        {
+            "name": "USGS",
+            "href": ""
+        }
+    ],
+      "References": ["Davies:1991jgr"]
+    },
+    {
+      "Body ID": 801,
+      "Body": "Triton",
+      "Product Name": "Control Network",
+      "Product Type": "Geodetic Coordinate Reference Frame (or Proxy)",
+      "Horizontal Accuracy": "few km",
+      "Vertical Accuracy": "?",
+      "Resolution": "N/A",
+      "Coverage": "available data <2km in resolution",
+      "Status": "Current",
+      "Offline Formats": ["ISIS Control Network"],
+      "Online Formats": "Unreleased",
+      "Data Producer": "USGS",
+      "Data Provider": [
+        {
+            "name": "unreleased",
+            "href": ""
+        }
+    ],
+      "References": ["Bland:2020lpsc"]
+    },
+    {
+      "Body ID": 801,
+      "Body": "Triton",
+      "Product Name": "Control Network",
+      "Product Type": "Controlled Unrectified Mosaic",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "39ppd / 600mpp",
+      "Coverage": "Hemisphere",
+      "Status": "Current",
+      "Offline Formats": ["GeoTiff"],
+      "Online Formats": "Unreleased",
+      "Data Producer": "USGS",
+      "Data Provider": [
+        {
+            "name": "USGS",
+            "href": ""
+        }
+    ],
+      "References": ["Davies:1991jgr"]
+    },
+    {
+      "Body ID": 801,
+      "Body": "Triton",
+      "Product Name": "Control Network",
+      "Product Type": "Controlled Unrectified Images",
+      "Horizontal Accuracy": "few km",
+      "Vertical Accuracy": "?",
+      "Resolution": ">2kmpp",
+      "Coverage": "available data <2km in resolution",
+      "Status": "Current",
+      "Offline Formats": ["Unreleased"],
+      "Online Formats": "Unreleased",
+      "Data Producer": "USGS",
+      "Data Provider": [
+        {
+            "name": "unreleased",
+            "href": ""
+        }
+    ],
+      "References": ["Bland:2020lpsc"]
+    },
+    {
+      "Body ID": 801,
+      "Body": "Triton",
+      "Product Name": "Stereo-scopically Derived Topography",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "?",
+      "Vertical Accuracy": "?",
+      "Resolution": "?",
+      "Coverage": "25% - 45%",
+      "Status": "Unreleased",
+      "Offline Formats": ["?"],
+      "Online Formats": "?",
+      "Data Producer": "Schenk et al.",
+      "Data Provider": [
+        {
+            "name": "unreleased",
+            "href": ""
+        }
+    ],
+      "References": ["Schenk:2008isprs"]
+    }
+  ]
+}
+{{< /data-table >}}

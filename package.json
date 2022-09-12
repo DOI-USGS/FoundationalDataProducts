@@ -1,0 +1,24 @@
+{
+  "name": "hugo_template",
+  "version": "1.0.0",
+  "description": "An NPM Hugo template for web applications that are policy compliant.",
+  "main": "index.js",
+  "scripts": {
+    "build": "citation-js -i resources/fdp.bib > content/bibliography.json && npm run hugo:build",
+    "clean": "npm run hugo:clean",
+    "serve": "citation-js -i resources/fdp.bib > content/bibliography.json && npm run hugo:serve",
+    "hugo:build": "hugo -d build",
+    "hugo:serve": "hugo server --ignoreCache --disableFastRender -D ",
+    "hugo:clean": "rm -rf build resources public"
+  },
+  "author": "J. Laura",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "@uswds/uswds": "^3.1.0",
+    "citation-js": "^0.6.4"
+  },
+  "devDependencies": {
+    "@uswds/compile": "^1.0.0-beta.3",
+    "hugo-bin": "^0.88.2"
+  }
+}
