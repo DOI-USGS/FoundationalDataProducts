@@ -2,10 +2,11 @@
 baseURL: https://fdp.astrogeology.usgs.gov
 title: 'Foundational Data Products Knowledge Inventory'
 canonifyURLs: true
+
 theme: 
   - hugo-geekdoc
   - hugo-cite
-unsafe: true
+
 bibFile: "content/bibliography.json"
 
 pygmentsUseClasses: true

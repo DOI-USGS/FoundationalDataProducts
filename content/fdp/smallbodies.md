@@ -525,7 +525,7 @@ bibFile: "content/bibliography.json"
       "Horizontal Accuracy": "?",
       "Vertical Accuracy": "?",
       "Resolution": "?",
-      "Coverage": "$<50%$",
+      "Coverage": "<50%",
       "Status": "Current",
       "Offline Formats": ["Obj"],
       "Online Formats": "?",

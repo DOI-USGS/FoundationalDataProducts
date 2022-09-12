@@ -7,9 +7,9 @@
     "build": "citation-js -i resources/fdp.bib > content/bibliography.json && npm run hugo:build",
     "clean": "npm run hugo:clean",
     "serve": "citation-js -i resources/fdp.bib > content/bibliography.json && npm run hugo:serve",
-    "hugo:build": "hugo -d build",
+    "hugo:build": "hugo -d public",
     "hugo:serve": "hugo server --ignoreCache --disableFastRender -D ",
-    "hugo:clean": "rm -rf build resources public"
+    "hugo:clean": "rm -rf build public"
   },
   "author": "J. Laura",
   "license": "CC0-1.0",
