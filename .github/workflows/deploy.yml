@@ -31,9 +31,9 @@ jobs:
       - name: Build documents
         run: |
           # Perform any documentation building that might be required
-      - name: Spell check
-        run: |
-          python -m pyspelling
+      #- name: Spell check
+      #  run: |
+      #    python -m pyspelling
 
       - name: Setup Hugo
         uses: actions/setup-node@v3
