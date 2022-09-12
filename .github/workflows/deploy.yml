@@ -39,7 +39,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 17.3.0
-      -name: Build Site
+      - name: Build Site
         run: |
           npm install
           npm run build
