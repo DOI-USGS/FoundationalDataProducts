@@ -25,13 +25,13 @@
       "Resolution": "N/A",
       "Coverage": "?",
       "Status": "Current",
-      "Offline Formats": ["IMQ"],
+      "Offline Formats": ["DAT"],
       "Online Formats": "?",
       "Data Producer": "USGS",
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/details/Triton/ControlNetworks/Triton_data"
         }
     ],
       "References": ["Davies:1991jgr"]
@@ -73,7 +73,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Triton/Mosaic/Triton_Voyager2_Orthographic_RGB_Mosaic_600m"
         }
     ],
       "References": ["Davies:1991jgr"]
