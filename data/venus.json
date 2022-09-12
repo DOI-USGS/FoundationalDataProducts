@@ -28,7 +28,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds-geosciences.wustl.edu/mgn/mgn-v-rss-5-gravity-l2-v1/mg_5201/"
         }
     ],
       "References": ["Konopliv:1999icarus"]
@@ -47,12 +47,12 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds-geosciences.wustl.edu/missions/magellan/gxdr/"
         },
-            {
-                "name": "USGS",
-                "href": ""
-            }
+        {
+            "name": "USGS",
+            "href": "https://astrogeology.usgs.gov/search/map/Venus/Magellan/RadarProperties/Venus_Magellan_Topography_Global_4641m"
+        }
     ],
       "References": ["Ford:1992jgr"]
     },
@@ -69,8 +69,8 @@
       "Data Producer": "Herrick, et al.",
       "Data Provider": [
         {
-            "name": "Personal Website",
-            "href": ""
+            "name": "Personal Website (Dead link)",
+            "href": "https://www.gi.alaska.edu/~rherrick/stereotopo.html"
         }
     ],
       "References": ["Herrick:2012eos"]
@@ -108,12 +108,12 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds-geosciences.wustl.edu/missions/magellan/c123midr/index.htm"
         },
-            {
-                "name": "USGS",
-                "href": ""
-            }
+        {
+            "name": "USGS",
+            "href": "https://astrogeology.usgs.gov/search/details/Venus/Magellan/Colorized/Venus_Magellan_C3-MDIR_Colorized_Global_Mosaic_4641m/cub"
+        }
     ],
       "References": ["Ford:1993"]
     },
@@ -131,8 +131,11 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
-        }
+            "href": "https://pds-imaging.jpl.nasa.gov/volumes/magellan.html#mgnFMAP"
+        },{
+          "name": "USGS",
+          "href": "https://astrogeology.usgs.gov/search/map/Venus/Magellan/Venus_Magellan_LeftLook_mosaic_global_75m"
+      }
     ],
       "References": ["?"]
     },
@@ -150,7 +153,10 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pdsimage2.wr.usgs.gov/data/mgn-v-rdrs-5-dim-v1.0/"
+        },{
+          "name": "USGS",
+          "href":"https://astrogeology.usgs.gov/search/map/Venus/Magellan/Venus_Magellan_RightLook_mosaic_global_75m"
         }
     ],
       "References": ["?"]
