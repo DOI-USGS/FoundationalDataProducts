@@ -31,7 +31,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "http://astrogeology.usgs.gov/search/details/Ariel/ControlNetworks/Ariel_data"
         }
     ],
       "References": ["Davies:1987icarus"]
@@ -52,7 +52,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://pubs.usgs.gov/imap/1920/plate-2.pdf"
         }
     ],
       "References": ["USGS:1988"]
@@ -73,7 +73,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "http://astrogeology.usgs.gov/search/details/Ariel/ControlNetworks/Ariel_data"
         }
     ],
       "References": ["Davies:1987icarus"]
@@ -115,7 +115,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "http://astrogeology.usgs.gov/search/details/Umbriel/ControlNetworks/Umbriel_data"
         }
     ],
       "References": ["Davies:1987icarus"]
@@ -136,7 +136,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://pubs.usgs.gov/imap/1920/plate-3.pdf"
         }
     ],
       "References": ["USGS:1988"]
@@ -157,7 +157,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/details/Umbriel/ControlNetworks/Umbriel_data"
         }
     ],
       "References": ["Davies:1987icarus"]
@@ -178,7 +178,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "http://astrogeology.usgs.gov/search/details/Titania/ControlNetworks/Titania_data"
         }
     ],
       "References": ["Davies:1987icarus"]
@@ -199,7 +199,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://pubs.usgs.gov/imap/1920/plate-3.pdf"
         }
     ],
       "References": ["USGS:1988"]
@@ -220,7 +220,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "http://astrogeology.usgs.gov/search/details/Titania/ControlNetworks/Titania_data"
         }
     ],
       "References": ["Davies:1987icarus"]
@@ -262,7 +262,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "http://astrogeology.usgs.gov/search/details/Oberon/ControlNetworks/Oberon_data"
         }
     ],
       "References": ["Davies:1987icarus"]
@@ -283,7 +283,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://pubs.usgs.gov/imap/1920/plate-3.pdf"
         }
     ],
       "References": ["USGS:1988"]
@@ -304,7 +304,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "http://astrogeology.usgs.gov/search/details/Oberon/ControlNetworks/Oberon_data"
         }
     ],
       "References": ["Davies:1987icarus"]
@@ -325,7 +325,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "http://astrogeology.usgs.gov/search/details/Miranda/ControlNetworks/Miranda_data"
         }
     ],
       "References": ["Davies:1987icarus"]
@@ -346,7 +346,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://pubs.usgs.gov/imap/1920/plate-1.pdf"
         }
     ],
       "References": ["USGS:1988"]
@@ -367,7 +367,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "http://astrogeology.usgs.gov/search/details/Miranda/ControlNetworks/Miranda_data"
         }
     ],
       "References": ["Davies:1987icarus"]
