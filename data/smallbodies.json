@@ -31,7 +31,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/dawn/dwncgravL2.html"
         }
     ],
       "References": ["Konopliv:2012", "Konopliv:2018icarus", "Park:2018pds"]
@@ -52,7 +52,13 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/dawn/dwncfcmosaics.html"
+        },{
+          "name":"UCLA",
+          "href":"http://dawndata.igpp.ucla.edu"
+        },{
+          "name":"USGS",
+          "href":"https://astrogeology.usgs.gov/search/map/Ceres/Dawn/DLR/FramingCamera/Ceres_Dawn_FC_HAMO_DTM_DLR_Global_60ppd_Oct2016"
         }
     ],
       "References": ["Preusker:2016lpsc", "Roatsch:2018pds"]
@@ -73,7 +79,10 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/dawn/dwncfcmosaics.html"
+        },{
+          "name":"UCLA",
+          "href":"http://dawndata.igpp.ucla.edu"
         }
     ],
       "References": ["Preusker:2016lpsc"]
@@ -118,7 +127,7 @@
                 "href": ""
             },{
             "name": "PDS",
-            "href": ""
+            "href": "https://pds.nasa.gov/ds-view/pds/viewProfile.jsp?dsid=DAWN-A-FC2-5-CERESSHAPESPC-V1.0"
         }
     ],
       "References": ["Park:2019icarus", "Park:2018pds_a"]
@@ -139,10 +148,10 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/dawn/dwncfcmosaics.html"
         },{
         "name": "USGS",
-        "href": ""
+        "href": "https://astrogeology.usgs.gov/search/details/Vesta/Dawn/DLR/HAMO/Vesta_Dawn_FC_HAMO_Mosaic_Global_74ppd/cub"
     }
 ],
       "References": ["Roatsch:2016pss"]
@@ -163,10 +172,10 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/dawn/dwncfcmosaics.html"
         },{
         "name": "USGS",
-        "href": ""
+        "href": "https://astrogeology.usgs.gov/search/map/Ceres/Dawn/DLR/FramingCamera/Ceres_Dawn_FC_DLR_global_20ppd_Oct2015"
     }
 ],
       "References": ["Roatsch:2016pss"]
@@ -187,7 +196,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/dawn/dwnvgravL2.html"
         }
     ],
       "References": ["Konopliv:2014icarus", "Konopliv:2017pds"]
@@ -208,7 +217,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/dawn/dwnvfcshape.html"
         }
     ],
       "References": ["Preusker:2012epsc", "Jaumann:2012sci"]
@@ -250,7 +259,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds.nasa.gov/ds-view/pds/viewProfile.jsp?dsid=DAWN-A-FC2-5-MOSAIC-V1.0"
         }
     ],
       "References": ["Roatsch:2013egu"]
@@ -271,7 +280,10 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds.nasa.gov/ds-view/pds/viewProfile.jsp?dsid=DAWN-A-FC2-5-MOSAIC-V1.0"
+        },{
+          "name":"USGS",
+          "href":"https://astrogeology.usgs.gov/search/details/Vesta/Dawn/DLR/HAMO/Vesta_Dawn_FC_HAMO_Mosaic_Global_74ppd/cub"
         }
     ],
       "References": ["LeCorre:2017pdw"]
@@ -292,7 +304,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds-smallbodies.astro.umd.edu/holdings/ro-a-osinac_osiwac-5-lutetia-shape-v1.0/dataset.shtml"
         }
     ],
       "References": ["Sierks:2011sci"]
@@ -313,7 +325,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://arcnav.psi.edu/urn:nasa:pds:gaskell.ast-eros.shape-model"
         }
     ],
       "References": ["Gaskell:2008pds"]
@@ -355,7 +367,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://arcnav.psi.edu/urn:nasa:pds:gaskell.ast-itokawa.shape-model"
         }
     ],
       "References": ["Gaskell:2006lpsc"]
@@ -376,7 +388,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/bennushape.html"
         }
     ],
       "References": ["Nolan:2013pds"]
@@ -391,13 +403,13 @@
       "Resolution": "0.75~m",
       "Coverage": "Global",
       "Status": "Current",
-      "Offline Formats": ["?"],
+      "Offline Formats": ["BDS (SPICE DSK)"],
       "Online Formats": "?",
       "Data Producer": "Barnouin, et al.",
       "Data Provider": [
         {
-            "name": "unreleased",
-            "href": ""
+            "name": "PDS",
+            "href": "https://naif.jpl.nasa.gov/pub/naif/pds/pds4/orex/"
         }
     ],
       "References": ["Barnouin:2019pss", "Barnouin:2020pss"]
@@ -439,7 +451,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astropedia.prod-asc.chs.usgs.gov/search/map/Bennu/OSIRIS-REx/OCAMS/Bennu_OSIRIS-REx_OCAMS_Global_PAN_Mosaic_5cm_v1"
         }
     ],
       "References": ["Bennett:2020icarus"]
@@ -502,7 +514,7 @@
       "Data Provider": [
         {
             "name": "Science",
-            "href": ""
+            "href": "https://www.science.org/doi/10.1126/science.aay3999"
         }
     ],
       "References": ["Spencer:2020sci"]
@@ -523,7 +535,7 @@
       "Data Provider": [
         {
             "name": "Science",
-            "href": ""
+            "href": "https://www.science.org/doi/10.1126/science.aay3999"
         }
     ],
       "References": ["Spencer:2020sci"]
@@ -544,7 +556,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds.nasa.gov/ds-view/pds/viewDataset.jsp?dsid=DS1-C-MICAS-5-BORRELLY-DEM-V1.0"
         }
     ],
       "References": ["Oberst:2004icarus"]
@@ -565,7 +577,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds.nasa.gov/ds-view/pds/viewDataset.jsp?dsid=DS1-C-MICAS-5-BORRELLY-DEM-V1.0"
         }
     ],
       "References": ["Kirk:2004pds"]
@@ -586,7 +598,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pdssbn.astro.umd.edu/holdings/ro-c-multi-5-67p-shape-v2.0/dataset.shtml"
         }
     ],
       "References": ["esaspc:2017"]
@@ -607,7 +619,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pdssbn.astro.umd.edu/holdings/ro-c-multi-5-67p-shape-v2.0/dataset.shtml"
         }
     ],
       "References": ["Preusker:2015aaa"]
@@ -628,7 +640,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pdssbn.astro.umd.edu/holdings/ro-c-multi-5-67p-shape-v2.0/dataset.shtml"
         }
     ],
       "References": ["Preusker:2015aaa"]
@@ -649,7 +661,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pdssbn.astro.umd.edu/holdings/ro-c-multi-5-67p-shape-v2.0/dataset.shtml"
         }
     ],
       "References": ["Jorda:2016icarus", "Capanna:2015pds"]
@@ -670,7 +682,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pdssbn.astro.umd.edu/holdings/dif-c-hriv_mri-5-hartley2-shape-v1.0/dataset.shtml"
         }
     ],
       "References": ["Thomas:2013icarus"]
@@ -691,7 +703,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pdssbn.astro.umd.edu/holdings/dif-c-hriv_its_mri-5-tempel1-shape-v2.0/dataset.shtml"
         }
     ],
       "References": ["Thomas:2007icarus"]
