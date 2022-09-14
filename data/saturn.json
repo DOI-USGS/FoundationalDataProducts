@@ -31,7 +31,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/mimasshape.html"
         }
     ],
       "References": ["Gaskell:2013pds"]
@@ -72,12 +72,11 @@
       "Data Producer": "DLR",
       "Data Provider": [
         {
+          "name": "CICLOPS",
+          "href": "https://ciclops.org/maps.php.html"
+       },{
             "name": "PDS",
-            "href": ""
-        },
-        {
-            "name": "DLR",
-            "href": ""
+            "href": "https://pds-imaging.jpl.nasa.gov/volumes/carto.html"
         }
     ],
       "References": ["Roatsch:2018pss"]
@@ -112,14 +111,14 @@
       "Vertical Accuracy": "29m-2km",
       "Resolution": "2.2kmpp",
       "Coverage": "Global",
-      "Status": "Unreleased",
+      "Status": "Current",
       "Offline Formats": ["?"],
       "Online Formats": "?",
       "Data Producer": "USGS",
       "Data Provider": [
         {
-            "name": "unreleased",
-            "href": ""
+            "name": "USGS",
+            "href": "https://astrogeology.usgs.gov/search/map/Enceladus/enceladus_cassini_iss_shapemodel_bland_2019/enceladus_2019pm_radius"
         }
     ],
       "References": ["Bland:2020isprs", "Bland:2019lpsc", "Bland:2019pdw"]
@@ -148,6 +147,27 @@
     {
       "Body ID": 602,
       "Body": "Enceladus",
+      "Product Name": "Cassini ISS Gridded Topography",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "37m",
+      "Vertical Accuracy": "57m (least squares);29m - 2km (expected position)",  
+      "Resolution": "2ppd / 2.2kmpp",
+      "Coverage": "92.5%",
+      "Status": "Current",
+      "Offline Formats": ["Cub", "Tiff"],
+      "Online Formats": "?",
+      "Data Producer": "USGS",
+      "Data Provider": [
+        {
+            "name": "USGS",
+            "href": "https://astrogeology.usgs.gov/search/map/Enceladus/enceladus_cassini_iss_shapemodel_bland_2019/enceladus_2019pm_topography"
+        }
+    ],
+      "References": ["Bland:2018ess"]
+    },
+    {
+      "Body ID": 602,
+      "Body": "Enceladus",
       "Product Name": "Cassini ISS Global Mosaic",
       "Product Type": "Relatively Controlled Unrectified Image Mosaic",
       "Horizontal Accuracy": "?",
@@ -160,21 +180,23 @@
       "Data Producer": "DLR",
       "Data Provider": [
         {
-            "name": "PDS",
-            "href": ""
-        },
-            {
-                "name": "USGS",
-                "href": ""
-            }
+          "name":"CICLOPS",
+          "href":"https://ciclops.org/view/7590/Map-of-Enceladus---December-2011.html"
+        },{
+          "name":"PDS",
+          "href":"https://pds-imaging.jpl.nasa.gov/volumes/carto.html"
+        },{
+            "name": "USGS",
+            "href": "https://astrogeology.usgs.gov/search/map/Enceladus/Cassini/Enceladus_Cassini_ISS_Global_Mosaic_100m_HPF"
+        }
     ],
       "References": ["Roatsch:2018pss"]
     },
     {
       "Body ID": 602,
       "Body": "Enceladus",
-      "Product Name": "Cassini ISS GLobal Mosaic",
-      "Product Type": "Realtivel Controlled Unrectified Image Mosaic",
+      "Product Name": "Cassini ISS Global Mosaic",
+      "Product Type": "Relatively Controlled Unrectified Image Mosaic",
       "Horizontal Accuracy": "?",
       "Vertical Accuracy": "?",
       "Resolution": "110mpp / 44ppd",
@@ -186,7 +208,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Enceladus/Cassini/Enceladus_Cassini_mosaic_global_110m"
         }
     ],
       "References": ["Bland:2018ess"]
@@ -207,7 +229,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/tethysshape.html"
         }
     ],
       "References": ["Gaskell:2013pdstethys"]
@@ -248,16 +270,16 @@
       "Data Producer": "DLR",
       "Data Provider": [
         {
-            "name": "DLR",
-            "href": ""
+            "name": "CICLOPS",
+            "href": "https://ciclops.org/maps.php.html"
         },
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds-imaging.jpl.nasa.gov/volumes/carto.html"
         },
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Tethys/Cassini/Tethys_Cassini_mosaic_global_293m"
         }
     ],
       "References": ["Roatsch:2016enc", "Roatsch:2008isprs"]
@@ -299,7 +321,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/dioneshape.html"
         }
     ],
       "References": ["Gaskell:2013pdsdione"]
@@ -340,16 +362,16 @@
       "Data Producer": "DLR",
       "Data Provider": [
         {
-            "name": "DLR",
-            "href": ""
+            "name": "CICLOPS",
+            "href": "https://ciclops.org/maps.php.html"
         },
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds-imaging.jpl.nasa.gov/volumes/carto.html"
         },
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Dione/Voyager/Dione_Cassini_Voyager_mosaic_global_154m"
         }
     ],
       "References": ["Roatsch:2016enc", "Roatsch:2008isprs"]
@@ -411,16 +433,16 @@
       "Data Producer": "DLR",
       "Data Provider": [
         {
-            "name": "DLR",
-            "href": ""
+            "name": "CICLOPS",
+            "href": "https://ciclops.org/maps.php.html"
         },
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds-imaging.jpl.nasa.gov/volumes/carto.html"
         },
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Rhea/Cassini/Rhea_Cassini_Voyager_mosaic_global_417m"
         }
     ],
       "References": ["Roatsch:2016enc", "Roatsch:2008isprs"]
@@ -441,7 +463,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Titan/Cassini/Global-Mosaic/Titan_ISS_P19658_Mosaic_Global_4km"
         }
     ],
       "References": ["Perry:2005lpsc"]
@@ -462,7 +484,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Titan/Cassini/Global-Mosaic/Titan_ISS_Globe_65Sto45N_450M_AvgMos"
         }
     ],
       "References": ["Archinal:2013lpsc"]
@@ -482,12 +504,12 @@
       "Data Producer": "Lorenz, et al.",
       "Data Provider": [
         {
-            "name": "UA",
-            "href": ""
+            "name": "UA (Staff Website)",
+            "href": "https://www.lpl.arizona.edu/~rlorenz/titantopo/"
         },
         {
             "name": "Icarus",
-            "href": ""
+            "href": "https://www.sciencedirect.com/science/article/pii/S0019103513001620"
         }
 
     ],
@@ -634,23 +656,23 @@
       "Data Producer": "DLR",
       "Data Provider": [
         {
-            "name": "DLR",
-            "href": ""
+            "name": "CICLOPS",
+            "href": "https://ciclops.org/maps.php.html"
         },
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds-imaging.jpl.nasa.gov/volumes/carto.html"
         },
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Iapetus/Voyager_Cassini/Iapetus_Cassini_Voyager_Mosaic_Global_783m"
         }
     ],
       "References": ["Roatsch:2016enc", "Roatsch:2008isprs"]
     },
     {
       "Body ID": 609,
-      "Body": "Phoebe",
+      "Body": "c",
       "Product Name": "Shape Model",
       "Product Type": "Elevation",
       "Horizontal Accuracy": "?",
@@ -664,7 +686,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://sbn.psi.edu/pds/resource/phoebeshape.html"
         }
     ],
       "References": ["Gaskell:2013pdsphoebe"]
@@ -684,11 +706,11 @@
       "Data Producer": "DLR",
       "Data Provider": [
         {
-            "name": "DLR",
-            "href": ""
+            "name": "CICLOPS",
+            "href": "https://ciclops.org/maps.php.html"
         },{
             "name":"PDS",
-            "href":""
+            "href":"https://pds-imaging.jpl.nasa.gov/volumes/carto.html"
         }
     ],
       "References": ["Roatsch:2016enc", "Roatsch:2008isprs"]
