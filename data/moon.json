@@ -1,6 +1,5 @@
 {
     "headers": [
-        "Body",
         "Product Name",
         "Product Type",
         "Horizontal Accuracy",
