@@ -7,6 +7,9 @@ bibFile: "content/bibliography.json"
 file: "data/jupiter.json"
 ---
 
+{{% data-table-header %}}
+
+### Identified Foundational Data Products
 {{< data-table >}}
 {{< json >}}
 {{< /data-table>}}
