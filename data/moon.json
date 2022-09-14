@@ -29,7 +29,7 @@
       "Data Provider": [
         {
             "name": "PDS",
-            "href": ""
+            "href": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-rdr-v1/grail_1001/"
         }
     ],
       "References": ["Lemoine:2014grs", "Goossens:2016lpsc"]
@@ -47,7 +47,7 @@
       "Data Producer": "USGS",
       "Data Provider": [
         {
-            "name": "USGS",
+            "name": "unreleased",
             "href": ""
         }
     ],
@@ -66,12 +66,18 @@
       "Data Producer": "GSFC",
       "Data Provider": [
         {
-            "name": "PDS",
-            "href": ""
+          "name": "MIT",
+          "href":"http://imbrium.mit.edu"
         },{
-                "name": "USGS",
-                "href": ""
-            }
+            "name": "PDS (GDR)",
+            "href": "https://ode.rsl.wustl.edu/moon/pagehelp/Content/Missions_Instruments/LRO/LOLA/GDR/Intro.htm"
+        },{
+            "name": "PDS (GDRDEM)",
+            "href": "https://ode.rsl.wustl.edu/moon/pagehelp/Content/Missions_Instruments/LRO/LOLA/GDR/GDRDEM.htm"
+        },{
+          "name":"USGS",
+          "href":"https://astrogeology.usgs.gov/search/map/Moon/LRO/LOLA/Lunar_LRO_LOLA_Global_LDEM_118m_Mar2014"
+        }
     ],
       "References": ["Neumann:2009"]
     },
@@ -88,12 +94,12 @@
       "Data Producer": "GSFC",
       "Data Provider": [
         {
-            "name": "PDS",
-            "href": ""
+          "name":"MIT",
+          "href":"http://imbrium.mit.edu/BROWSE/SLDEM2015/TILES/"
         },{
                 "name": "USGS",
-                "href": ""
-            }
+                "href": "https://astrogeology.usgs.gov/search/map/Moon/LRO/LOLA/Lunar_LRO_LOLAKaguya_DEMmerge_60N60S_512ppd"
+        }
     ],
       "References": ["Barker:2016icarus"]
     },
@@ -110,12 +116,15 @@
       "Data Producer": "LOLA Team",
       "Data Provider": [
         {
-            "name": "MIT",
-            "href": ""
+          "name": "MIT",
+          "href":"http://imbrium.mit.edu"
         },{
-                "name": "PDS",
-                "href": ""
-            }
+            "name": "PDS (GDR)",
+            "href": "https://ode.rsl.wustl.edu/moon/pagehelp/Content/Missions_Instruments/LRO/LOLA/GDR/Intro.htm"
+        },{
+            "name": "PDS (GDRDEM)",
+            "href": "https://ode.rsl.wustl.edu/moon/pagehelp/Content/Missions_Instruments/LRO/LOLA/GDR/GDRDEM.htm"
+        }
     ],
       "References": ["Smith:2017icarus"]
     },
@@ -133,7 +142,7 @@
       "Data Provider": [
         {
             "name": "DARTS",
-            "href": ""
+            "href": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-lalt-5-topo-ggt-map-v2.0/"
         }
     ],
       "References": ["Araki:2009sci"]
@@ -152,7 +161,7 @@
       "Data Provider": [
         {
             "name": "DARTS",
-            "href": ""
+            "href": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-lalt-5-topo-ggt-map-v2.0/"
         }
     ],
       "References": ["Araki:2009sci"]
@@ -171,7 +180,7 @@
       "Data Provider": [
         {
             "name": "DARTS",
-            "href": ""
+            "href": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-lalt-5-topo-ggt-map-v2.0/"
         }
     ],
       "References": ["Araki:2009sci"]
@@ -184,38 +193,38 @@
       "Resolution": "0.25ppd / 7.5kmpp",
       "Coverage": "Global",
       "Status": "Superseded",
-      "Offline Formats": ["Unreleased"],
+      "Offline Formats": ["?"],
       "Online Formats": ["?"],
       "Data Producer": "CNSA",
       "Data Provider": [
         {
             "name": "GRAS",
-            "href": ""
+            "href": "https://moon.bao.ac.cn/ce5web/searchOrder_pdsData.search"
         }
     ],
       "References": ["Ping:2009"]
     },
     {
-      "Product Name": "CE-1 LAM Derived \\ac{DEM",
+      "Product Name": "CE-1 LAM Derived DEM",
       "Product Type": "Elevation",
       "Horizontal Accuracy": "50m",
       "Vertical Accuracy": "?",
       "Resolution": "0.0625ppd / 20mpp",
       "Coverage": "Global",
       "Status": "Current",
-      "Offline Formats": ["Unreleased"],
+      "Offline Formats": ["?"],
       "Online Formats": ["?"],
       "Data Producer": "CNSA",
       "Data Provider": [
         {
-            "name": "GRAS",
-            "href": ""
+            "name": "GRAS (page 5; LAM A, LAM B)",
+            "href": "https://moon.bao.ac.cn/ce5web/searchOrder_pdsData.search"
         }
     ],
       "References": ["Huang:2018aa"]
     },
     {
-      "Product Name": "GLD100 \\ac{WAC \\ac{DEM",
+      "Product Name": "GLD100 WAC DEM",
       "Product Type": "Elevation",
       "Horizontal Accuracy": "1km",
       "Vertical Accuracy": "20m global; 10m flat maria",
@@ -228,10 +237,13 @@
       "Data Provider": [
         {
             "name": "ASU",
-            "href": ""
+            "href": "https://wms.lroc.asu.edu/lroc/view_rdr/WAC_GLD100"
+        },{
+          "name":"PDS",
+          "href":"http://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/WAC_GLD100/"
         },{
                 "name": "USGS",
-                "href": ""
+                "href": "https://astrogeology.usgs.gov/search/map/Moon/LRO/LROC_WAC/Lunar_LROC_WAC_GLD100_79s79n_118m_v1_1"
             }
     ],
       "References": ["Scholten:2012"]
@@ -250,7 +262,7 @@
       "Data Provider": [
         {
             "name": "JPL",
-            "href": ""
+            "href": "https://trek.nasa.gov/moon/"
         }
     ],
       "References": ["Tran:2010isprs"]
@@ -269,7 +281,10 @@
       "Data Provider": [
         {
             "name": "ASU",
-            "href": ""
+            "href": "https://wms.lroc.asu.edu/lroc"
+        },{
+          "name":"PDS",
+          "href":"http://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/"
         }
     ],
       "References": ["HENRIKSEN:2017icarus"]
@@ -307,7 +322,29 @@
       "Data Provider": [
         {
             "name": "DARTS",
-            "href": ""
+            "href": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-tc-5-dtm-map-v2.0/"
+        },{
+          "name":"DARTS (Seemless)",
+          "href":"https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-tc-5-dtm-map-seamless-v2.0/"
+        }
+    ],
+      "References": ["Haruyama:2012lpsc"]
+    },
+    {
+      "Product Name": "Kaguya TC Stereophotogrammetric Orthoimages",
+      "Product Type": "Elevation",
+      "Horizontal Accuracy": "50m",
+      "Vertical Accuracy": "5m",
+      "Resolution": "?",
+      "Coverage": "~95%",
+      "Status": "Current",
+      "Offline Formats": ["IMG"],
+      "Online Formats": ["?"],
+      "Data Producer": "JAXA",
+      "Data Provider": [
+        {
+            "name": "DARTS",
+            "href": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-tc-4-dtm-ortho-v3.0/"
         }
     ],
       "References": ["Haruyama:2012lpsc"]
@@ -325,7 +362,7 @@
       "Data Producer": "ISRO",
       "Data Provider": [
         {
-            "name": "ISDA",
+            "name": "unreleased",
             "href": ""
         }
     ],
@@ -345,19 +382,19 @@
       "Data Provider": [
         {
             "name": "ASU",
-            "href": ""
+            "href": "https://wms.lroc.asu.edu/lroc/view_rdr/WAC_GLOBAL"
         },{
                 "name": "PDS",
-                "href": ""
+                "href": "http://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/BDR/"
         }, {
                 "name": "USGS",
-                "href": ""
+                "href": "https://astrogeology.usgs.gov/search/map/Moon/LRO/LROC_WAC/Lunar_LRO_LROC-WAC_Mosaic_global_100m_June2013"
             }
     ],
       "References": ["Robinson:2012isprs"]
     },
     {
-      "Product Name": "LROC NAC DEM  Derived Orthomosaics",
+      "Product Name": "LROC NAC DEM Derived Orthomosaics",
       "Product Type": "Absolutely Controlled Orthomosaics",
       "Horizontal Accuracy": "Varies with underlying DEM",
       "Vertical Accuracy": "Varies with underlying DEM",
@@ -370,14 +407,11 @@
       "Data Provider": [
         {
             "name": "ASU",
-            "href": ""
+            "href": "https://wms.lroc.asu.edu/lroc/"
         },{
                 "name": "PDS",
-                "href": ""
-        }, {
-                "name": "JPL",
-                "href": ""
-            }
+                "href": "http://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/"
+        }
     ],
       "References": ["HENRIKSEN:2017icarus"]
     },
@@ -395,7 +429,10 @@
       "Data Provider": [
         {
             "name": "ASU",
-            "href": ""
+            "href": "https://wms.lroc.asu.edu/lroc"
+        },{
+          "name":"PDS",
+          "href":"http://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/BDR/NAC_POLE/"
         }
     ],
       "References": ["Wagner:2015lpsc"]
@@ -432,8 +469,16 @@
       "Data Producer": "JAXA",
       "Data Provider": [
         {
+          "name":"DARTS",
+          "href":"https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-tc-5-ortho-map-v2.0/"
+        },
+        {
+          "name":"DARTS (Seemless)",
+          "href":"https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-tc-5-ortho-map-seamless-v2.0/"
+        },
+        {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/maps/moon-kaguya-tc-global-mosaic"
         }
     ],
       "References": ["Haruyama:2012lpsc"]
@@ -452,7 +497,7 @@
       "Data Provider": [
         {
             "name": "DARTS",
-            "href": ""
+            "href": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-tc-4-dem-ortho-v1.0/"
         }
     ],
       "References": ["Haruyama:2012lpsc"]
