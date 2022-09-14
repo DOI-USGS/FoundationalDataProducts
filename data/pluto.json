@@ -52,7 +52,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Charon/NewHorizons/Charon_NewHorizons_Global_DEM_300m_Jul2017"
         }
     ],
       "References": ["Schenk:2018icarus"]
@@ -73,7 +73,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Charon/NewHorizons/Charon_NewHorizons_Global_Mosaic_300m_Jul2017"
         }
     ],
       "References": ["Schenk:2018icarus"]
@@ -115,7 +115,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Pluto/NewHorizons/Pluto_NewHorizons_Global_Mosaic_300m_Jul2017"
         }
     ],
       "References": ["Schenk:2018icarus_b"]
@@ -136,7 +136,7 @@
       "Data Provider": [
         {
             "name": "USGS",
-            "href": ""
+            "href": "https://astrogeology.usgs.gov/search/map/Pluto/NewHorizons/Pluto_NewHorizons_Global_DEM_300m_Jul2017"
         }
     ],
       "References": ["Schenk:2018icarus_b"]
