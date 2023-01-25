@@ -5,28 +5,28 @@
     "description": "Git repository containing the Foundational Data Products (FDP) website code and content.",
     "version": "1.0.0",
     "status": "Production",
-
     "permissions": {
       "usageType": "openSource",
       "licenses": [
         {
           "name": "Public Domain, CC0-1.0",
-          "URL": ""
+          "URL": "https://code.usgs.gov/astrogeology/FoundationalDataProducts/-/blob/1.0.0/LICENSE.md"
         }
       ]
     },
 
-    "homepageURL": "",
-    "downloadURL": "",
-    "disclaimerURL": "",
-    "repositoryURL": "",
+    "homepageURL": "https://code.usgs.gov/astrogeology/FoundationalDataProducts/",
+    "downloadURL": "https://code.usgs.gov/astrogeology/FoundationalDataProducts/-/archive/1.0.0/FoundationalDataProducts-1.0.0.zip",
+    "disclaimerURL": "https://code.usgs.gov/astrogeology/FoundationalDataProducts/-/blob/1.0.0/DISCLAIMER.md",
+    "repositoryURL": "https://code.usgs.gov/astrogeology/FoundationalDataProducts/",
     "vcs": "git",
 
     "laborHours": 120,
 
     "tags": [
       "Planetary",
-      "Spatial Data Infrastructure"
+      "Spatial Data Infrastructure",
+      "Foundational Data Products"
     ],
 
     "languages": [
