@@ -1,0 +1,45 @@
+[
+  {
+    "name": "fdp_website",
+    "organization": "U.S. Geological Survey",
+    "description": "Git repository containing the Foundational Data Products (FDP) website code and content.",
+    "version": "1.0.0",
+    "status": "Production",
+
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Public Domain, CC0-1.0",
+          "URL": ""
+        }
+      ]
+    },
+
+    "homepageURL": "",
+    "downloadURL": "",
+    "disclaimerURL": "",
+    "repositoryURL": "",
+    "vcs": "git",
+
+    "laborHours": 120,
+
+    "tags": [
+      "Planetary",
+      "Spatial Data Infrastructure"
+    ],
+
+    "languages": [
+      "Go"
+    ],
+
+    "contact": {
+      "name": "Jason Laura",
+      "email": "jlaura@usgs.gov"
+    },
+
+    "date": {
+      "metadataLastUpdated": "2023-01-25"
+    }
+  }
+]
